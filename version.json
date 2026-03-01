@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.2+180",
+  "latest_version": "1.18.3+181",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.3+181",
+      "notes": "**Dynamic Release Notes**: Real-time fetching from GitHub with local asset fallback for transparency.\n**Enhanced Release Automation**: Updated release-manager skill with GitHub manifest upload workflow.\n**Improved UI/UX**: Polished loading states and synchronization for release notes viewer."
+    },
     {
       "version": "1.18.2+180",
       "notes": "UI: Replaced generic pipe icons with more specific smoking pipe iconography.\nAI: Refined prompts and temperature settings for more concise and focused blending and pairing recommendations."
