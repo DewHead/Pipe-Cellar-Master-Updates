@@ -1,18 +1,23 @@
 # Pipe Cellar Master - Release Notes
 
+## Version 1.18.8+186 (2026-03-01)
 
+### Maintenance
+- Code quality and performance improvements
+- Minor UI refinements and layout polish
+- Updated and verified all tests for the latest changes
 
+## Version 1.18.7+185 (2026-03-01)
 
-
-
-
-
-
-
-
-
-
-
+### Features
+- **Pipe Shape Icons**: Major SVG path refinements and added 6 new shapes (Bent Billiard, Bent Apple, Bent Dublin, Rhodesian, Cherrywood, Prince).
+- **Wishlist UI**: Enhanced search and type filters with improved list tile layouts.
+### Improvements
+- **AI Optimization**: Improved pairing suggestions and background analysis handling.
+- **Auto-Update**: Added check for updates when the app is resumed.
+- **Pipe Management**: Default material set to 'Briar' for new pipes.
+### Technical
+- **Bug Fixes**: Improved AsyncNotifier handling and fixed long flavor tags UI.
 
 ## Version 1.18.6+184 (2026-03-01)
 
@@ -21,6 +26,7 @@
 - **Wishlist UI Refinement**: Compact PopupMenu for actions and improved search bottom sheet for easier wishlist navigation.
 - **AI Integration**: Optimized Gemini prompts for more concise and focused Pairing/Flavor insights.
 - **Maintenance**: Cleaned up unused assets and added SVG support for enhanced iconography.
+
 ## Version 1.18.5+183 (2026-03-01)
 
 ### Features
@@ -28,6 +34,7 @@
 - **Enhanced Release Notes**: Real-time updates from GitHub with version comparison and local fallback.
 - **Pipe Management**: 'Unsaved Changes' protection in EditPipeScreen and 'Pipe Resting Period' info in PipeListScreen.
 - **UI/UX Refinements**: Persistent update banners in AppShell and consolidated flavor visualization settings.
+
 ## Version 1.18.4+182 (2026-03-01)
 
 ### Improvements
@@ -36,23 +43,27 @@
 - Deep Tobacco Details: New ability to fetch comprehensive specifications and flavor profiles for individual blends.
 - Official Blending Data: Integrated official GL Pease blend descriptions for superior data accuracy.
 - UI/UX Polish: Mirrored iconography and improved visual balance in navigation and detail screens.
+
 ## Version 1.18.3+181 (2026-03-01)
 
 ### Improvements
 - **Dynamic Release Notes**: Real-time fetching from GitHub with local asset fallback for transparency.
 - **Enhanced Release Automation**: Updated release-manager skill with GitHub manifest upload workflow.
 - **Improved UI/UX**: Polished loading states and synchronization for release notes viewer.
+
 ## Version 1.18.2+180 (2026-03-01)
 
 ### Improvements
 - UI: Replaced generic pipe icons with more specific smoking pipe iconography.
 - AI: Refined prompts and temperature settings for more concise and focused blending and pairing recommendations.
+
 ## Version 1.18.1+179 (2026-03-01)
 
 ### Features
 - Direct In-App Updates: Integrated 'in_app_update' for seamless Google Play managed updates (Immediate & Flexible).
 - Detailed Changelog Manifest: Fetch rich release notes from the dedicated Updates repository for enhanced transparency.
 - Test Maintenance: Updated mocks and stability for Gemini service and Settings features.
+
 ## Version 1.18.0+178 (2026-03-01)
 
 ### Features
@@ -61,6 +72,7 @@
 ### Improvements
 - UI refinements for cellar and detail screens.
 - Enhanced Gemini service error handling and integration tests.
+
 ## Version 1.17.0+177 (2026-03-01)
 
 ### Features
@@ -73,11 +85,13 @@
 - Enhanced backup/restore reliability.
 - Refined data export/import for large collections.
 - Polished Material 3 navigation and UI components.
+
 ## Version 1.16.2+176 (2026-03-01)
 
 ### Features
 - **Trending Tobaccos**: Discover popular tobacco blends in real-time with Gemini AI and Google Search integration.
 - **Recommendation Insights**: Added an info icon to the 'What Should I Smoke?' engine explaining the selection criteria (Open status, Aging, Time of Day).
+
 ## Version 1.16.1+175 (2026-02-28)
 
 ### Features
@@ -87,6 +101,7 @@
 ### Improvements
 - **Smart Scoring**: Logic that prioritizes open tins, optimally aged blends, and current time-of-day preferences (Morning, Afternoon, Evening).
 - **Navigation Shortcuts**: Jump directly to the recommended blend's detail screen with one tap.
+
 ## Version 1.16.0+174 (2026-02-28)
 
 ### Features
@@ -96,10 +111,12 @@
 ### Improvements
 - **Auth & Connectivity:** Refined OAuth 2.0 flows and improved cloud backup sorting with localized display times.
 - **Data Integrity:** Database refinements to support consumption history and improved AI scanner reliability.
+
 ## Version 1.15.5+171 (2026-02-28)
 
 ### Improvements
 - Integrated grounded search in Gemini scanner and finalized multi-currency support for analytics.
+
 ## Version 1.15.4+170 (2026-02-28)
 
 ### Improvements
@@ -107,6 +124,7 @@
 - Enhanced Gemini AI prompts for more consistent flavor data.
 - Added "Fetch AI Flavor Profile" button as a fallback.
 - Improved flavor data parsing and normalization.
+
 ## Version 1.15.3+169 (2026-02-28)
 
 ### Improvements
@@ -114,6 +132,7 @@
 - Fixed JSON import to allow partial success on validation errors.
 - Refined AI scanner grounding and hallucination prevention.
 - Enhanced duplicate detection for blends during import.
+
 ## Version 1.15.2+168 (2026-02-28)
 
 ### Improvements
@@ -128,6 +147,7 @@
 - Minor build refinements and dependency synchronization.
 - Improved AI scanner grounding and hallucination prevention.
 - Enhanced cloud backup sorting with localized display times.
+
 ## Version 1.15.0+166 (2026-02-28)
 
 ### Features
@@ -140,6 +160,7 @@
 - Improved Scraper: Revamped G.L. Pease description scraping for higher accuracy.
 - Cloud Backup: Improved sorting with localized display times.
 - JSON Import: Enhanced robustness to allow partial success on validation errors.
+
 ## Version 1.14.0+164 (2026-02-28)
 
 ### Improvements
@@ -149,9 +170,7 @@
 - Authentication: Improved user preference handling for automatic Google Sign-In prompts.
 - Testing: Updated comprehensive integration tests and mocks for AI services.
 
-
 ## Version 1.13.5+163 (2026-02-28)
-
 
 ### AI & Scanner
 - Added Google Search fallback to Gemini scanner for improved blend identification.
@@ -168,15 +187,18 @@
 ### UI & UX
 - Added Safe Area support for backup selection sheets.
 - Enhanced import summary with detailed cellar vs wishlist counts.
+
 ## Version 1.13.4+162 (2026-02-28)
 
 ### Bug Fixes
 - Fixed robust cloud backup listing with name-based sorting and localized display times.
 - Improved backup entry display with localized time formats for better readability.
+
 ## Version 1.13.3+161 (2026-02-28)
 
 ### Improvements
 - Fix Cloud Restore issue: Ensure newly created backups appear correctly by using modifiedTime for deterministic folder and file selection in Google Drive. Verified with comprehensive integration tests.
+
 ## Version 1.13.2+160 (2026-02-28)
 
 ### Performance & Integrity
@@ -190,10 +212,12 @@
 
 ### Quality & Testing
 - Implemented comprehensive E2E integration tests for the full backup/restore lifecycle (local and cloud).
+
 ## Version 1.13.1+159 (2026-02-27)
 
 ### Improvements
 - Allow partial imports on validation errors and improve total count accuracy.
+
 ## Version 1.13.0+158 (2026-02-27)
 
 ### New Features
@@ -211,6 +235,7 @@
 
 ### Improvements
 - Integrated search functionality for app information and refined flavor profile visualizations
+
 ## Version 1.12.4+156 (2026-02-27)
 
 ### Features
@@ -220,12 +245,14 @@
 ### Improvements
 - Enhanced flavor profile visualization by forcing the radar chart in detail screens
 - Added integration tests to verify search functionality in info screens
+
 ## Version 1.12.3+155 (2026-02-27)
 
 ### Improvements
 - Maintenance and feature synchronization
 - Refined About screen and branding consistency
 - Synchronized assets for Android and iOS
+
 ## Version 1.12.2+154 (2026-02-27)
 
 ### Improvements
@@ -367,7 +394,7 @@
 ## Version 0.8.1+130 (2026-02-24)
 
 ### Improvements
-- **Smart Category Matching**: Updated filters to use \"contains\" matching for multi-type blends.
+- **Smart Category Matching**: Updated filters to use "contains" matching for multi-type blends.
 - **Accurate Filter Counts**: Chips now reflect the total number of tins in each category.
 - **Improved Search Stability**: Enhanced search field targeting in automated tests.
 
@@ -392,7 +419,7 @@
 ## Version 0.5.5+120 (2026-02-24)
 
 ### New Features
-- **Advanced Diagnostics**: Added \"Enable Debug Logging\" toggle in Settings.
+- **Advanced Diagnostics**: Added "Enable Debug Logging" toggle in Settings.
 - **Smart Resource Management**: Debug logging automatically disables after sharing logs.
 
 ### Improvements
@@ -474,7 +501,7 @@
 ## Version 0.2.1+101 (2026-02-23)
 
 ### New Features
-- **Manufacture Tracking**: Added \"Sealed/Manufactured Date\" tracking.
+- **Manufacture Tracking**: Added "Sealed/Manufactured Date" tracking.
 
 ### Improvements
 - **Error Feedback**: Improved error message dismissibility.
