@@ -1,26 +1,18 @@
 {
-  "latest_version": "1.18.6+184",
+  "latest_version": "1.18.8+186",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
+      "version": "1.18.8+186",
+      "notes": "### Maintenance\n- Code quality and performance improvements\n- Minor UI refinements and layout polish\n- Updated and verified all tests for the latest changes"
+    },
+    {
+      "version": "1.18.7+185",
+      "notes": "### Features\n- **Pipe Shape Icons**: Major SVG path refinements and added 6 new shapes (Bent Billiard, Bent Apple, Bent Dublin, Rhodesian, Cherrywood, Prince).\n- **Wishlist UI**: Enhanced search and type filters with improved list tile layouts.\n### Improvements\n- **AI Optimization**: Improved pairing suggestions and background analysis handling.\n- **Auto-Update**: Added check for updates when the app is resumed.\n- **Pipe Management**: Default material set to 'Briar' for new pipes.\n### Technical\n- **Bug Fixes**: Improved AsyncNotifier handling and fixed long flavor tags UI."
+    },
+    {
       "version": "1.18.6+184",
       "notes": "### Features\n- **Pipe Collection Enhancements**: Standardized Brand and Shape dropdowns with custom icons for all major shapes (Billiard, Bulldog, Apple, etc.).\n- **Wishlist UI Refinement**: Compact PopupMenu for actions and improved search bottom sheet for easier wishlist navigation.\n- **AI Integration**: Optimized Gemini prompts for more concise and focused Pairing/Flavor insights.\n- **Maintenance**: Cleaned up unused assets and added SVG support for enhanced iconography."
-    },
-    {
-      "version": "1.18.5+183",
-      "notes": "### Features\n- **AI Pairings Enhancement**: Dedicated PairingsBottomSheet for better organization and reusable AI logic.\n- **Enhanced Release Notes**: Real-time updates from GitHub with version comparison and local fallback.\n- **Pipe Management**: 'Unsaved Changes' protection in EditPipeScreen and 'Pipe Resting Period' info in PipeListScreen.\n- **UI/UX Refinements**: Persistent update banners in AppShell and consolidated flavor visualization settings."
-    },
-    {
-      "version": "1.18.4+182",
-      "notes": "Recommendation Engine: Refined AI-generated recommendation logic with improved grammar and phrasing.\nEnhanced Trending Analytics: Optimized GeminiService with caching and streamlined data schemas for trending tobaccos.\nDeep Tobacco Details: New ability to fetch comprehensive specifications and flavor profiles for individual blends.\nOfficial Blending Data: Integrated official GL Pease blend descriptions for superior data accuracy.\nUI/UX Polish: Mirrored iconography and improved visual balance in navigation and detail screens."
-    },
-    {
-      "version": "1.18.3+181",
-      "notes": "**Dynamic Release Notes**: Real-time fetching from GitHub with local asset fallback for transparency.\n**Enhanced Release Automation**: Updated release-manager skill with GitHub manifest upload workflow.\n**Improved UI/UX**: Polished loading states and synchronization for release notes viewer."
-    },
-    {
-      "version": "1.18.2+180",
-      "notes": "UI: Replaced generic pipe icons with more specific smoking pipe iconography.\nAI: Refined prompts and temperature settings for more concise and focused blending and pairing recommendations."
     }
   ]
 }
