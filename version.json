@@ -1,0 +1,10 @@
+{
+  "latest_version": "1.18.1+179",
+  "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
+  "changelog": [
+    {
+      "version": "1.18.1+179",
+      "notes": "### Features\n- Direct In-App Updates: Integrated 'in_app_update' for seamless Google Play managed updates (Immediate & Flexible).\n- Detailed Changelog Manifest: Fetch rich release notes from the dedicated Updates repository for enhanced transparency.\n- Test Maintenance: Updated mocks and stability for Gemini service and Settings features."
+    }
+  ]
+}
