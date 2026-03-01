@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.10+188",
+  "latest_version": "1.18.11+189",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.11+189",
+      "notes": "Maintenance and stability improvements."
+    },
     {
       "version": "1.18.10+188",
       "notes": "Background App Updates: Added real-time progress bars and restart buttons for a seamless update experience."
@@ -12,7 +16,7 @@
     },
     {
       "version": "1.18.8+186",
-      "notes": "### Maintenance\n- Code quality and performance improvements\n- Minor UI refinements and layout polish\n- Updated and verified all tests for the latest changes\""
+      "notes": "### Maintenance\n- Code quality and performance improvements\n- Minor UI refinements and layout polish\n- Updated and verified all tests for the latest changes"
     },
     {
       "version": "1.18.7+185",
