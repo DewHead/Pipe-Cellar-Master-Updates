@@ -1,7 +1,15 @@
 {
-  "latest_version": "1.18.3+181",
+  "latest_version": "1.18.5+183",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.5+183",
+      "notes": "### Features\n- **AI Pairings Enhancement**: Dedicated PairingsBottomSheet for better organization and reusable AI logic.\n- **Enhanced Release Notes**: Real-time updates from GitHub with version comparison and local fallback.\n- **Pipe Management**: 'Unsaved Changes' protection in EditPipeScreen and 'Pipe Resting Period' info in PipeListScreen.\n- **UI/UX Refinements**: Persistent update banners in AppShell and consolidated flavor visualization settings."
+    },
+    {
+      "version": "1.18.4+182",
+      "notes": "Recommendation Engine: Refined AI-generated recommendation logic with improved grammar and phrasing.\nEnhanced Trending Analytics: Optimized GeminiService with caching and streamlined data schemas for trending tobaccos.\nDeep Tobacco Details: New ability to fetch comprehensive specifications and flavor profiles for individual blends.\nOfficial Blending Data: Integrated official GL Pease blend descriptions for superior data accuracy.\nUI/UX Polish: Mirrored iconography and improved visual balance in navigation and detail screens."
+    },
     {
       "version": "1.18.3+181",
       "notes": "**Dynamic Release Notes**: Real-time fetching from GitHub with local asset fallback for transparency.\n**Enhanced Release Automation**: Updated release-manager skill with GitHub manifest upload workflow.\n**Improved UI/UX**: Polished loading states and synchronization for release notes viewer."
