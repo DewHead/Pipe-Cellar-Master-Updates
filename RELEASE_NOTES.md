@@ -13,6 +13,14 @@
 
 
 
+
+## Version 1.18.6+184 (2026-03-01)
+
+### Features
+- **Pipe Collection Enhancements**: Standardized Brand and Shape dropdowns with custom icons for all major shapes (Billiard, Bulldog, Apple, etc.).
+- **Wishlist UI Refinement**: Compact PopupMenu for actions and improved search bottom sheet for easier wishlist navigation.
+- **AI Integration**: Optimized Gemini prompts for more concise and focused Pairing/Flavor insights.
+- **Maintenance**: Cleaned up unused assets and added SVG support for enhanced iconography.
 ## Version 1.18.5+183 (2026-03-01)
 
 ### Features
@@ -359,7 +367,7 @@
 ## Version 0.8.1+130 (2026-02-24)
 
 ### Improvements
-- **Smart Category Matching**: Updated filters to use "contains" matching for multi-type blends.
+- **Smart Category Matching**: Updated filters to use \"contains\" matching for multi-type blends.
 - **Accurate Filter Counts**: Chips now reflect the total number of tins in each category.
 - **Improved Search Stability**: Enhanced search field targeting in automated tests.
 
@@ -384,7 +392,7 @@
 ## Version 0.5.5+120 (2026-02-24)
 
 ### New Features
-- **Advanced Diagnostics**: Added "Enable Debug Logging" toggle in Settings.
+- **Advanced Diagnostics**: Added \"Enable Debug Logging\" toggle in Settings.
 - **Smart Resource Management**: Debug logging automatically disables after sharing logs.
 
 ### Improvements
@@ -466,7 +474,7 @@
 ## Version 0.2.1+101 (2026-02-23)
 
 ### New Features
-- **Manufacture Tracking**: Added "Sealed/Manufactured Date" tracking.
+- **Manufacture Tracking**: Added \"Sealed/Manufactured Date\" tracking.
 
 ### Improvements
 - **Error Feedback**: Improved error message dismissibility.
