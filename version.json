@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.5+183",
+  "latest_version": "1.18.6+184",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.6+184",
+      "notes": "### Features\n- **Pipe Collection Enhancements**: Standardized Brand and Shape dropdowns with custom icons for all major shapes (Billiard, Bulldog, Apple, etc.).\n- **Wishlist UI Refinement**: Compact PopupMenu for actions and improved search bottom sheet for easier wishlist navigation.\n- **AI Integration**: Optimized Gemini prompts for more concise and focused Pairing/Flavor insights.\n- **Maintenance**: Cleaned up unused assets and added SVG support for enhanced iconography."
+    },
     {
       "version": "1.18.5+183",
       "notes": "### Features\n- **AI Pairings Enhancement**: Dedicated PairingsBottomSheet for better organization and reusable AI logic.\n- **Enhanced Release Notes**: Real-time updates from GitHub with version comparison and local fallback.\n- **Pipe Management**: 'Unsaved Changes' protection in EditPipeScreen and 'Pipe Resting Period' info in PipeListScreen.\n- **UI/UX Refinements**: Persistent update banners in AppShell and consolidated flavor visualization settings."
