@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.18.40+218",
+  "latest_version": "1.18.41+219",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.40+218",
-      "notes": "Changed Gemini model to 2.5 Flash Light for faster responses and quota concers."
+      "version": "1.18.41+219",
+      "notes": "New Features:\n- Local Backup/Restore: Create ZIP backups with data + images, restore from device\n- AI Model Update: Default changed to gemini-2.5-flash-lite; Virtual Blending now honestly reports when cellar lacks suitable tobaccos\n- UI Enhancements: Recommendation reasons display on separate lines; \"Tin added to cellar\" snackbar when moving from wishlist; Scanner search refactored to fix crashes\n- Pipe Model Field: Added optional \"Model\" field to pipes with full CRUD support and search integration\nBug Fixes:\n- Timeline navigation: Fixed blank screen crash for ungrouped tins; now routes correctly to individual or group detail screens\n- TinGroupDetailScreen: Graceful error handling for missing groups\n- Scanner manual search: Fixed Exception: No parts in search response content crash\nTechnical:\n- Database migration v21 (adds pipes.model column)\n- Refactored WishlistSearchBottomSheet → reusable TobaccoSearchBottomSheet\n- Centralized AI model constant in ApiConfig\n- Export format enum updated: JSON → ZIP"
     }
   ]
 }
