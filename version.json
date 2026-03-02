@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.17+195",
+  "latest_version": "1.18.18+196",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.18+196",
+      "notes": "Improved update notification logic to allow dismissing specific versions while ensuring future updates remain visible. Enhanced update banners and dialogs with persistent version-aware dismissal tracking."
+    },
     {
       "version": "1.18.17+195",
       "notes": "Enhanced update reliability with GitHub metadata integration to bypass Play Store lag, moved AI Pairings button to tin detail screen for better accessibility, and performed maintenance cleanup of test mocks."
