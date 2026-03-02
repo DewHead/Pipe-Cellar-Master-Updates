@@ -1,5 +1,10 @@
 # Pipe Cellar Master - Release Notes
 
+## Version 1.18.26+204 (2026-03-02)
+
+### Improvements
+- Refactor UpdateService for improved testability and decoupled from Riverpod. Minor UI refinement for pipe images.
+
 ## Version 1.18.25+203 (2026-03-02)
 
 ### Improvements
