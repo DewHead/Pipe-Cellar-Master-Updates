@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.12+190",
+  "latest_version": "1.18.13+191",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.13+191",
+      "notes": "Maintenance and stability improvements."
+    },
     {
       "version": "1.18.12+190",
       "notes": "Major UI Enhancements & Update System Reliability\n- New background update progress bar with percentage\n- Visual update badge on Settings icon\n- Dismissible update banners with 'Later' button\n- Optimized date display: Manufactured Date prioritized over Cellar Date\n- Visual tin group selection with images\n- Switched to 'in_app_update_me' for improved reliability"
