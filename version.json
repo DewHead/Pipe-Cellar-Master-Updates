@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.18.35+213",
+  "latest_version": "1.18.36+214",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.35+213",
-      "notes": "Enhanced log file generation with automatic indexing, refined background analysis UI, improved file naming consistency, and reduced logging noise."
+      "version": "1.18.36+214",
+      "notes": "Improved update reliability by prioritizing Google Play Store signals over GitHub metadata for update availability."
     }
   ]
 }
