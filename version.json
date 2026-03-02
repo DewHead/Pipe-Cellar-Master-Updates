@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.18.37+215",
+  "latest_version": "1.18.39+217",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.37+215",
-      "notes": "Update Reliability: Improved the reliability of the in-app update mechanism and prioritized Google Play Store signals for better version detection. UI Enhancements: Added a currency selection dropdown to the edit tin screen for improved international support. Date Formatting: Centralized date formatting across the application to ensure consistency. System Refinements: Enhanced logging and general UI refinements for a more stable experience."
+      "version": "1.18.39+217",
+      "notes": "Minor bug fixes. Updated local backup to backup images like cloud backup does."
     }
   ]
 }
