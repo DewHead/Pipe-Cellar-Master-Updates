@@ -38,6 +38,12 @@
 
 
 
+
+
+## Version 1.18.31+209 (2026-03-02)
+
+### Improvements
+- Google Play In-App Update Reliability: Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production.
 ## Version 1.18.30+208 (2026-03-02)
 
 ### Improvements
@@ -185,6 +191,10 @@
 - **Dynamic Release Notes**: Real-time fetching from GitHub with local asset fallback for transparency.
 - **Enhanced Release Automation**: Updated release-manager skill with GitHub manifest upload workflow.
 - **Improved UI/UX**: Polished loading states and synchronization for release notes viewer.
+## Version 1.18.31+209 (2026-03-02)
+
+### Improvements
+- Google Play In-App Update Reliability: Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production.
 ## Version 1.18.2+180 (2026-03-01)
 
 ### Improvements
@@ -387,7 +397,7 @@
 ## Version 1.12.0+152 (2026-02-27)
 
 ### New Features
-- **Material 3 "About" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
+- **Material 3 \"About\" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
 - **Integrated Release Notes**: Browse the full history of Pipe Cellar Master updates directly within the app, ensuring you're always up to speed with new features.
 - **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 \"Lounge\" design tokens across the settings experience.
 
