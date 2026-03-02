@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.18.28+206",
+  "latest_version": "1.18.29+207",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.28+206",
-      "notes": "Fix: Prevent pipe image cropping by using BoxFit.contain and fixing height constraints."
+      "version": "1.18.29+207",
+      "notes": "Google Play In-App Update Reliability: Added explicit Play Core dependencies and ProGuard rules. Simplified UpdateService logic."
     }
   ]
 }

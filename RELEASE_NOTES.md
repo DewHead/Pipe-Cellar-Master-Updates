@@ -1,41 +1,9 @@
 # Pipe Cellar Master - Release Notes
 
+## Version 1.18.29+207 (2026-03-02)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Improvements
+- Google Play In-App Update Reliability: Added explicit Play Core dependencies and ProGuard rules. Simplified UpdateService logic.
 ## Version 1.18.28+206 (2026-03-02)
 
 ### Improvements
@@ -607,7 +575,7 @@
 ## Version 0.2.1+101 (2026-02-23)
 
 ### New Features
-- **Manufacture Tracking**: Added \"Sealed/Manufactured Date\" tracking.
+- **Manufacture Tracking**: Added "Sealed/Manufactured Date" tracking.
 
 ### Improvements
 - **Error Feedback**: Improved error message dismissibility.
