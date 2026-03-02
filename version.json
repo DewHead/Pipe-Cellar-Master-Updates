@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.33+211",
+  "latest_version": "1.18.34+212",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.34+212",
+      "notes": "Centralized Date Formatting, Google Play Update Reliability, Currency Support, and Pipe Image Cropping Fix."
+    },
     {
       "version": "1.18.33+211",
       "notes": "Centralized date formatting for consistent display across all screens.\nImproved UpdateService reliability and simplified logic by removing redundant URLs.\nAdded ProGuard rules for the in_app_update plugin to ensure consistent background updates in production.\nUI refinements for edit screens and analytics dashboard."
@@ -37,10 +41,6 @@
     {
       "version": "1.18.25+203",
       "notes": "UI scaling for pipe images and improved background placeholder visibility."
-    },
-    {
-      "version": "1.18.24+202",
-      "notes": "Enhanced update flow with progress tracking, background sync, and fallback to store URL if flexible update fails."
     }
   ]
 }
