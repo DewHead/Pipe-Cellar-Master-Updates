@@ -1,46 +1,10 @@
 {
-  "latest_version": "1.18.34+212",
+  "latest_version": "1.18.35+213",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.34+212",
-      "notes": "Centralized Date Formatting, Google Play Update Reliability, Currency Support, and Pipe Image Cropping Fix."
-    },
-    {
-      "version": "1.18.33+211",
-      "notes": "Centralized date formatting for consistent display across all screens.\nImproved UpdateService reliability and simplified logic by removing redundant URLs.\nAdded ProGuard rules for the in_app_update plugin to ensure consistent background updates in production.\nUI refinements for edit screens and analytics dashboard."
-    },
-    {
-      "version": "1.18.32+210",
-      "notes": "Google Play In-App Update Reliability: Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production."
-    },
-    {
-      "version": "1.18.31+209",
-      "notes": "Google Play In-App Update Reliability: Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production."
-    },
-    {
-      "version": "1.18.30+208",
-      "notes": "Currency Support: Added currency selection dropdown in the Edit Tin screen, allowing users to specify the purchase currency per tin."
-    },
-    {
-      "version": "1.18.29+207",
-      "notes": "Google Play In-App Update Reliability: Added explicit Play Core dependencies and ProGuard rules. Simplified UpdateService logic."
-    },
-    {
-      "version": "1.18.28+206",
-      "notes": "Fix: Prevent pipe image cropping by using BoxFit.contain and fixing height constraints."
-    },
-    {
-      "version": "1.18.27+205",
-      "notes": "UI refinements for pipe and tin images in edit screens. Fixed store URL in update service. Improved UpdateService testability."
-    },
-    {
-      "version": "1.18.26+204",
-      "notes": "Refactor UpdateService for improved testability and decoupled from Riverpod. Minor UI refinement for pipe images."
-    },
-    {
-      "version": "1.18.25+203",
-      "notes": "UI scaling for pipe images and improved background placeholder visibility."
+      "version": "1.18.35+213",
+      "notes": "Enhanced log file generation with automatic indexing, refined background analysis UI, improved file naming consistency, and reduced logging noise."
     }
   ]
 }
