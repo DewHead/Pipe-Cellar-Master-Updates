@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.31+209",
+  "latest_version": "1.18.32+210",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.32+210",
+      "notes": "Google Play In-App Update Reliability: Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production."
+    },
     {
       "version": "1.18.31+209",
       "notes": "Google Play In-App Update Reliability: Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production."
