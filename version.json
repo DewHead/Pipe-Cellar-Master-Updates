@@ -1,42 +1,10 @@
 {
-  "latest_version": "1.18.27+205",
+  "latest_version": "1.18.28+206",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.27+205",
-      "notes": "UI refinements for pipe and tin images in edit screens. Fixed store URL in update service. Improved UpdateService testability."
-    },
-    {
-      "version": "1.18.26+204",
-      "notes": "Refactor UpdateService for improved testability and decoupled from Riverpod. Minor UI refinement for pipe images."
-    },
-    {
-      "version": "1.18.25+203",
-      "notes": "UI scaling for pipe images and improved background placeholder visibility."
-    },
-    {
-      "version": "1.18.24+202",
-      "notes": "Enhanced update flow with progress tracking, background sync, and fallback to store URL if flexible update fails."
-    },
-    {
-      "version": "1.18.23+201",
-      "notes": "Branding Improvements: Increased visibility of the application logo on the About screen for a more premium look and feel."
-    },
-    {
-      "version": "1.18.22+200",
-      "notes": "UI Accessibility and Update Reliability\n- Added 'Starting update' state for smoother transitions.\n- Improved progress indicators and status messages during the update process.\n- Fixed update state handling to ensure consistent UI across different parts of the app."
-    },
-    {
-      "version": "1.18.21+199",
-      "notes": "UI Accessibility: Moved 'Add Tin' and 'Update Tin' buttons to a persistent bottom navigation bar for better accessibility. Refactored UpdateService for improved reliability and faster version checks."
-    },
-    {
-      "version": "1.18.20+198",
-      "notes": "Fixed timeline update reflection issue. Added prominent 'Add Tin' and 'Update Tin' buttons for better accessibility. Moved AI Pairing button to tin details screen for improved discoverability."
-    },
-    {
-      "version": "1.18.19+197",
-      "notes": "Accessibility Improvements: Added prominent 'Add Tin' and 'Update Tin' buttons at the bottom of the scanner edit screens for better visibility and a more intuitive primary action."
+      "version": "1.18.28+206",
+      "notes": "Fix: Prevent pipe image cropping by using BoxFit.contain and fixing height constraints."
     }
   ]
 }
