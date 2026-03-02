@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.18.39+217",
+  "latest_version": "1.18.40+218",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.39+217",
-      "notes": "Minor bug fixes. Updated local backup to backup images like cloud backup does."
+      "version": "1.18.40+218",
+      "notes": "Changed Gemini model to 2.5 Flash Light for faster responses and quota concers."
     }
   ]
 }
