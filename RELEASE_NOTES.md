@@ -46,6 +46,11 @@
 
 
 
+
+## Version 1.18.40+218 (2026-03-02)
+
+### Improvements
+- Changed Gemini model to 2.5 Flash Light for faster responses and quota concers.
 ## Version 1.18.39+217 (2026-03-02)
 
 ### Improvements
@@ -583,7 +588,7 @@
 
 ### New Features
 - **Advanced Diagnostics**: Added "Enable Debug Logging" toggle in Settings.
-- **Smart ResourceManagement**: Debug logging automatically disables after sharing logs.
+- **Smart Resource Management**: Debug logging automatically disables after sharing logs.
 
 ### Improvements
 - **Dynamic Logging**: Switch between standard and verbose modes without restart.
