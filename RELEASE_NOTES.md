@@ -1,5 +1,10 @@
 # Pipe Cellar Master - Release Notes
 
+## Version 1.18.23+201 (2026-03-02)
+
+### Improvements
+- Branding Improvements: Increased visibility of the application logo on the About screen for a more premium look and feel.
+
 ## Version 1.18.22+200 (2026-03-02)
 
 ### Improvements
@@ -587,7 +592,7 @@
 ## Version 0.2.1+101 (2026-02-23)
 
 ### New Features
-- **Manufacture Tracking**: Added "Sealed/Manufactured Date" tracking.
+- **Manufacture Tracking**: Added \"Sealed/Manufactured Date\" tracking.
 
 ### Improvements
 - **Error Feedback**: Improved error message dismissibility.
