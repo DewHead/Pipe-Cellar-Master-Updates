@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.14+192",
+  "latest_version": "1.18.15+193",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.15+193",
+      "notes": "Fixed inventory state invalidation for immediate UI updates and enhanced app update reliability with improved Play Core instance management."
+    },
     {
       "version": "1.18.14+192",
       "notes": "Refined pipe shape icons and improved default material settings. General code formatting and stability improvements."
