@@ -40,6 +40,14 @@
 
 
 
+
+## Version 1.18.33+211 (2026-03-02)
+
+### Improvements
+- Centralized date formatting for consistent display across all screens.
+- Improved UpdateService reliability and simplified logic by removing redundant URLs.
+- Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production.
+- UI refinements for edit screens and analytics dashboard.
 ## Version 1.18.32+210 (2026-03-02)
 
 ### Improvements
@@ -258,7 +266,7 @@
 ### Improvements
 - Fixed missing flavor wheel (radar chart) for new tins.
 - Enhanced Gemini AI prompts for more consistent flavor data.
-- Added "Fetch AI Flavor Profile" button as a fallback.
+- Added \"Fetch AI Flavor Profile\" button as a fallback.
 - Improved flavor data parsing and normalization.
 ## Version 1.15.3+169 (2026-02-28)
 
@@ -397,9 +405,9 @@
 ## Version 1.12.0+152 (2026-02-27)
 
 ### New Features
-- **Material 3 "About" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
+- **Material 3 \"About\" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
 - **Integrated Release Notes**: Browse the full history of Pipe Cellar Master updates directly within the app, ensuring you're always up to speed with new features.
-- **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 "Lounge" design tokens across the settings experience.
+- **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 \"Lounge\" design tokens across the settings experience.
 
 ## Version 1.11.0+151 (2026-02-27)
 
@@ -442,7 +450,7 @@
 - **Backup History**: Track the status of every manual and automated backup attempt directly in Settings.
 
 ### Improvements
-- **Refined Scanner Overlay**: Fixed the "white box" visual glitch in the scanning screen with 80% opacity dark overlay.
+- **Refined Scanner Overlay**: Fixed the \"white box\" visual glitch in the scanning screen with 80% opacity dark overlay.
 - **Enhanced Scanning Visuals**: Improved the scanning line with a stronger glow and refined the pulsing icon and progress bar.
 - **Robust Clipping**: Added anti-alias clipping to the scanner container to ensure all overlay elements respect the rounded corner design.
 - **Data Fidelity**: 100% field parity for JSON imports/exports, ensuring your reviews, flavor wheels, and notes are perfectly preserved.
@@ -520,7 +528,7 @@
 ## Version 0.8.1+130 (2026-02-24)
 
 ### Improvements
-- **Smart Category Matching**: Updated filters to use "contains" matching for multi-type blends.
+- **Smart Category Matching**: Updated filters to use \"contains\" matching for multi-type blends.
 - **Accurate Filter Counts**: Chips now reflect the total number of tins in each category.
 - **Improved Search Stability**: Enhanced search field targeting in automated tests.
 
@@ -545,7 +553,7 @@
 ## Version 0.5.5+120 (2026-02-24)
 
 ### New Features
-- **Advanced Diagnostics**: Added "Enable Debug Logging" toggle in Settings.
+- **Advanced Diagnostics**: Added \"Enable Debug Logging\" toggle in Settings.
 - **Smart Resource Management**: Debug logging automatically disables after sharing logs.
 
 ### Improvements
@@ -627,7 +635,7 @@
 ## Version 0.2.1+101 (2026-02-23)
 
 ### New Features
-- **Manufacture Tracking**: Added "Sealed/Manufactured Date" tracking.
+- **Manufacture Tracking**: Added \"Sealed/Manufactured Date\" tracking.
 
 ### Improvements
 - **Error Feedback**: Improved error message dismissibility.
