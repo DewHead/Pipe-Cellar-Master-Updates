@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.24+202",
+  "latest_version": "1.18.25+203",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.25+203",
+      "notes": "UI scaling for pipe images and improved background placeholder visibility."
+    },
     {
       "version": "1.18.24+202",
       "notes": "Enhanced update flow with progress tracking, background sync, and fallback to store URL if flexible update fails."
