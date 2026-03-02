@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.18.19+197",
+  "latest_version": "1.18.20+198",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.19+197",
-      "notes": "Accessibility Improvements: Added prominent 'Add Tin' and 'Update Tin' buttons at the bottom of the scanner edit screens for better visibility and a more intuitive primary action."
+      "version": "1.18.20+198",
+      "notes": "Fixed timeline update reflection issue. Added prominent 'Add Tin' and 'Update Tin' buttons for better accessibility. Moved AI Pairing button to tin details screen for improved discoverability."
     }
   ]
 }
