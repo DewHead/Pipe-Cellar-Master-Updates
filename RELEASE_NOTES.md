@@ -1,5 +1,10 @@
 # Pipe Cellar Master - Release Notes
 
+## Version 1.18.25+203 (2026-03-02)
+
+### Improvements
+- UI scaling for pipe images and improved background placeholder visibility.
+
 ## Version 1.18.24+202 (2026-03-02)
 
 ### Improvements
@@ -216,7 +221,7 @@
 ### Improvements
 - Fixed missing flavor wheel (radar chart) for new tins.
 - Enhanced Gemini AI prompts for more consistent flavor data.
-- Added "Fetch AI Flavor Profile" button as a fallback.
+- Added \"Fetch AI Flavor Profile\" button as a fallback.
 - Improved flavor data parsing and normalization.
 
 ## Version 1.15.3+169 (2026-02-28)
@@ -367,9 +372,9 @@
 ## Version 1.12.0+152 (2026-02-27)
 
 ### New Features
-- **Material 3 "About" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
+- **Material 3 \"About\" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
 - **Integrated Release Notes**: Browse the full history of Pipe Cellar Master updates directly within the app, ensuring you're always up to speed with new features.
-- **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 "Lounge" design tokens across the settings experience.
+- **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 \"Lounge\" design tokens across the settings experience.
 
 ## Version 1.11.0+151 (2026-02-27)
 
@@ -412,7 +417,7 @@
 - **Backup History**: Track the status of every manual and automated backup attempt directly in Settings.
 
 ### Improvements
-- **Refined Scanner Overlay**: Fixed the "white box" visual glitch in the scanning screen with 80% opacity dark overlay.
+- **Refined Scanner Overlay**: Fixed the \"white box\" visual glitch in the scanning screen with 80% opacity dark overlay.
 - **Enhanced Scanning Visuals**: Improved the scanning line with a stronger glow and refined the pulsing icon and progress bar.
 - **Robust Clipping**: Added anti-alias clipping to the scanner container to ensure all overlay elements respect the rounded corner design.
 - **Data Fidelity**: 100% field parity for JSON imports/exports, ensuring your reviews, flavor wheels, and notes are perfectly preserved.
