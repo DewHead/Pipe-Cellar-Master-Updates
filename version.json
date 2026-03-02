@@ -1,54 +1,10 @@
 {
-  "latest_version": "1.18.18+196",
+  "latest_version": "1.18.19+197",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.18+196",
-      "notes": "Improved update notification logic to allow dismissing specific versions while ensuring future updates remain visible. Enhanced update banners and dialogs with persistent version-aware dismissal tracking."
-    },
-    {
-      "version": "1.18.17+195",
-      "notes": "Enhanced update reliability with GitHub metadata integration to bypass Play Store lag, moved AI Pairings button to tin detail screen for better accessibility, and performed maintenance cleanup of test mocks."
-    },
-    {
-      "version": "1.18.16+194",
-      "notes": "Enhanced Update Reliability and GitHub Metadata Integration: Fetches GitHub metadata first to bypass Play Core lag. Improved update detection logic to show updates as soon as they are available on GitHub or Play Store. Updated notification banner to clearly indicate when an update is downloaded and ready for installation. Maintenance: Cleaned up orphaned test mocks."
-    },
-    {
-      "version": "1.18.15+193",
-      "notes": "Fixed inventory state invalidation for immediate UI updates and enhanced app update reliability with improved Play Core instance management."
-    },
-    {
-      "version": "1.18.14+192",
-      "notes": "Refined pipe shape icons and improved default material settings. General code formatting and stability improvements."
-    },
-    {
-      "version": "1.18.13+191",
-      "notes": "Maintenance and stability improvements."
-    },
-    {
-      "version": "1.18.12+190",
-      "notes": "Major UI Enhancements & Update System Reliability\n- New background update progress bar with percentage\n- Visual update badge on Settings icon\n- Dismissible update banners with 'Later' button\n- Optimized date display: Manufactured Date prioritized over Cellar Date\n- Visual tin group selection with images\n- Switched to 'in_app_update_me' for improved reliability"
-    },
-    {
-      "version": "1.18.11+189",
-      "notes": "Maintenance and stability improvements."
-    },
-    {
-      "version": "1.18.10+188",
-      "notes": "Background App Updates: Added real-time progress bars and restart buttons for a seamless update experience."
-    },
-    {
-      "version": "1.18.9+187",
-      "notes": "### Features\n- **Vertical Timeline**: Introduced a new vertical timeline layout for the cellar, providing a chronological view of tobacco history and aging.\n- **Pipe Selection UI**: Enhanced the smoke logging experience with a new PipeSelectionBottomSheet for easier pipe discovery and selection.\n### Improvements\n- **Recommendation Engine**: Refined the 'What Should I Smoke?' engine with improved logic and UI for better tobacco suggestions.\n- **Settings & UI**: Added new preference settings for display modes and polished the overall app shell navigation.\n- **App Update Indication**: Integrated visual cues for pending updates within the settings and main navigation."
-    },
-    {
-      "version": "1.18.8+186",
-      "notes": "### Maintenance\n- Code quality and performance improvements\n- Minor UI refinements and layout polish\n- Updated and verified all tests for the latest changes"
-    },
-    {
-      "version": "1.18.7+185",
-      "notes": "### Features\n- **Pipe Shape Icons**: Major SVG path refinements and added 6 new shapes (Bent Billiard, Bent Apple, Bent Dublin, Rhodesian, Cherrywood, Prince).\n- **Wishlist UI**: Enhanced search and type filters with improved list tile layouts.\n### Improvements\n- **AI Optimization**: Improved pairing suggestions and background analysis handling.\n- **Auto-Update**: Added check for updates when the app is resumed.\n- **Pipe Management**: Default material set to 'Briar' for new pipes.\n### Technical\n- **Bug Fixes**: Improved AsyncNotifier handling and fixed long flavor tags UI."
+      "version": "1.18.19+197",
+      "notes": "Accessibility Improvements: Added prominent 'Add Tin' and 'Update Tin' buttons at the bottom of the scanner edit screens for better visibility and a more intuitive primary action."
     }
   ]
 }
