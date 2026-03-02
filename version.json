@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.30+208",
+  "latest_version": "1.18.31+209",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.31+209",
+      "notes": "Google Play In-App Update Reliability: Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production."
+    },
     {
       "version": "1.18.30+208",
       "notes": "Currency Support: Added currency selection dropdown in the Edit Tin screen, allowing users to specify the purchase currency per tin."
