@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.49+227",
+  "latest_version": "1.18.50+228",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.50+228",
+      "notes": "Individual Tin Weight Tracking: Tobacco weight is now tracked at the individual tin level.\nImproved Analytics: Dashboard statistics now use individual tin weights.\nAdvanced Scanner Features: Added Gemini model overrides and photo saving options.\nEnhanced Data Reliability: Improved backup, restore, and import logic with better duplicate detection.\nUI Polish: Relocated the Cellar/Wishlist sort button and updated tin count styling."
+    },
     {
       "version": "1.18.49+227",
       "notes": "Added alphabetical and date sorting options to Cellar and Wishlist screens."
