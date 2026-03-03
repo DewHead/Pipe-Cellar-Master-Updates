@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.45+223",
+  "latest_version": "1.18.46+224",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.46+224",
+      "notes": "Export File Extensions: Fixed redundant .txt suffix on JSON/CSV/PDF exports for better cross-platform compatibility."
+    },
     {
       "version": "1.18.45+223",
       "notes": "Restore & Import Reliability: Added robust logging and improved isolate performance for large collection restorations. Enhanced feedback during cloud backup preparation."
