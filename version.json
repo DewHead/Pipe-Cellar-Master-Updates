@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.48+226",
+  "latest_version": "1.18.49+227",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.49+227",
+      "notes": "Added alphabetical and date sorting options to Cellar and Wishlist screens."
+    },
     {
       "version": "1.18.48+226",
       "notes": "Scanner UI: Added 'Save Photo' option for camera-captured images, allowing users to keep a local copy of their tobacco tins.\nAI Analysis: Updated GeminiService to support specific model overrides, ensuring more robust and optimized tobacco analysis.\nUI Polish: Minor layout improvements in the scanner screen."
