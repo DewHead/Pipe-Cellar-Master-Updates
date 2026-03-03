@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.44+222",
+  "latest_version": "1.18.45+223",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.45+223",
+      "notes": "Restore & Import Reliability: Added robust logging and improved isolate performance for large collection restorations. Enhanced feedback during cloud backup preparation."
+    },
     {
       "version": "1.18.44+222",
       "notes": "Data Management Refinement: Simplified the export flow by replacing the bottom sheet with direct CSV/PDF export options in settings. Renamed Local Backup section to Data Management for clarity."
