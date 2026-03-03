@@ -48,6 +48,12 @@
 
 
 
+
+## Version 1.18.42+220 (2026-03-03)
+
+### Improvements
+- **Data Management Overhaul:** Merged Local Backup and Data Export/Import into a unified Data Management section in settings. This provides a streamlined user experience for backup, restore, and data export functionalities. The new section includes options for creating and restoring local backups, exporting data to CSV and PDF formats, and importing data from various sources.
+- **Tin Quantity Display:** The  now displays the total quantity of each tin item within a group, providing users with at-a-glance information. A chip indicating the total count (e.g., 2 Total) appears if the quantity is greater than one.
 ## Version 1.18.41+219 (2026-03-03)
 
 ### Improvements
@@ -381,7 +387,7 @@ Technical:
 ### UI & UX
 - Added Safe Area support for backup selection sheets.
 - Enhanced import summary with detailed cellar vs wishlist counts.
-## Version 1.13.4+162 (2026-02-28)
+## Version 1.13.4+162 (2026--28)
 
 ### Bug Fixes
 - Fixed robust cloud backup listing with name-based sorting and localized display times.
