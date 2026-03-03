@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.46+224",
+  "latest_version": "1.18.47+225",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.47+225",
+      "notes": "- AI Scanner: Improved error handling for blocked or unclear image analysis. Added specific safety filter feedback.\n- Scanner UI: Enhanced state persistence during failed analysis for better visibility of error messages.\n- Error Handling: Implemented a robust error sanitizer to provide clearer, human-readable messages across the application.\n- Data Management: Optimized isolate-based backup restoration for better stability with large collections."
+    },
     {
       "version": "1.18.46+224",
       "notes": "Export File Extensions: Fixed redundant .txt suffix on JSON/CSV/PDF exports for better cross-platform compatibility."
@@ -16,15 +20,15 @@
     },
     {
       "version": "1.18.43+221",
-      "notes": "Data Management Overhaul: Merged Local Backup and Data Export/Import into a unified experience.\nTin Quantity Display: Now shows total quantity on each tin card in groups.\nImproved Tobacco Search: Unified and more reliable search for both Cellar and Wishlist.\nAI Performance: Optimized Gemini models for faster tobacco analysis.\nGeneral Maintenance: Bug fixes for timeline navigation and scanner stability."
+      "notes": "Data Management Overhaul: Merged Local Backup and Data Export/Import into a unified experience.\\nTin Quantity Display: Now shows total quantity on each tin card in groups.\\nImproved Tobacco Search: Unified and more reliable search for both Cellar and Wishlist.\\nAI Performance: Optimized Gemini models for faster tobacco analysis.\\nGeneral Maintenance: Bug fixes for timeline navigation and scanner stability."
     },
     {
       "version": "1.18.42+220",
-      "notes": "- **Data Management Overhaul:** Merged Local Backup and Data Export/Import into a unified Data Management section in settings. This provides a streamlined user experience for backup, restore, and data export functionalities. The new section includes options for creating and restoring local backups, exporting data to CSV and PDF formats, and importing data from various sources.\n- **Tin Quantity Display:** The  now displays the total quantity of each tin item within a group, providing users with at-a-glance information. A chip indicating the total count (e.g., 2 Total) appears if the quantity is greater than one."
+      "notes": "- **Data Management Overhaul:** Merged Local Backup and Data Export/Import into a unified Data Management section in settings. This provides a streamlined user experience for backup, restore, and data export functionalities. The new section includes options for creating and restoring local backups, exporting data to CSV and PDF formats, and importing data from various sources.\\n- **Tin Quantity Display:** The  now displays the total quantity of each tin item within a group, providing users with at-a-glance information. A chip indicating the total count (e.g., 2 Total) appears if the quantity is greater than one."
     },
     {
       "version": "1.18.41+219",
-      "notes": "New Features:\n- Local Backup/Restore: Create ZIP backups with data + images, restore from device\n- AI Model Update: Default changed to gemini-2.5-flash-lite; Virtual Blending now honestly reports when cellar lacks suitable tobaccos\n- UI Enhancements: Recommendation reasons display on separate lines; \"Tin added to cellar\" snackbar when moving from wishlist; Scanner search refactored to fix crashes\n- Pipe Model Field: Added optional \"Model\" field to pipes with full CRUD support and search integration\nBug Fixes:\n- Timeline navigation: Fixed blank screen crash for ungrouped tins; now routes correctly to individual or group detail screens\n- TinGroupDetailScreen: Graceful error handling for missing groups\n- Scanner manual search: Fixed Exception: No parts in search response content crash\nTechnical:\n- Database migration v21 (adds pipes.model column)\n- Refactored WishlistSearchBottomSheet → reusable TobaccoSearchBottomSheet\n- Centralized AI model constant in ApiConfig\n- Export format enum updated: JSON → ZIP"
+      "notes": "New Features:\\n- Local Backup/Restore: Create ZIP backups with data + images, restore from device\\n- AI Model Update: Default changed to gemini-2.5-flash-lite; Virtual Blending now honestly reports when cellar lacks suitable tobaccos\\n- UI Enhancements: Recommendation reasons display on separate lines; \\\"Tin added to cellar\\\" snackbar when moving from wishlist; Scanner search refactored to fix crashes\\n- Pipe Model Field: Added optional \\\"Model\\\" field to pipes with full CRUD support and search integration\\nBug Fixes:\\n- Timeline navigation: Fixed blank screen crash for ungrouped tins; now routes correctly to individual or group detail screens\\n- TinGroupDetailScreen: Graceful error handling for missing groups\\n- Scanner manual search: Fixed Exception: No parts in search response content crash\\nTechnical:\\n- Database migration v21 (adds pipes.model column)\\n- Refactored WishlistSearchBottomSheet → reusable TobaccoSearchBottomSheet\\n- Centralized AI model constant in ApiConfig\\n- Export format enum updated: JSON → ZIP"
     }
   ]
 }
