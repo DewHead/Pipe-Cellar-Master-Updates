@@ -9,6 +9,11 @@
 
 
 
+
+## Version 1.18.54+232 (2026-03-05)
+
+### Improvements
+- AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for all operations, improving speed and extraction accuracy.
 ## Version 1.18.53+231 (2026-03-05)
 
 ### Improvements
@@ -16,7 +21,8 @@
 ## Version 1.18.51+229 (2026-03-04)
 
 ### Advanced Filtering & Sorting System
-- **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.\n- **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.
+- **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.
+- **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.
 - **Individual Tin Weight Tracking:** Track tobacco weight at the individual tin level for better accuracy.
 - **Enhanced Analytics:** Statistics updated to use precise per-tin weights.
 - **Advanced AI Scanner:** Gemini model overrides and photo saving options.
@@ -76,7 +82,7 @@
 ### Improvements
 - New Features:
 - Local Backup/Restore: Create ZIP backups with data + images, restore from device
-- AI Model Update: Standardized on gemini-3.1-flash-lite for all operations; Virtual Blending now honestly reports when cellar lacks suitable tobaccos
+- AI Model Update: Standardized on gemini-3.1-flash-lite-preview for all operations; Virtual Blending now honestly reports when cellar lacks suitable tobaccos
 - UI Enhancements: Recommendation reasons display on separate lines; "Tin added to cellar" snackbar when moving from wishlist; Scanner search refactored to fix crashes
 - Pipe Model Field: Added optional "Model" field to pipes with full CRUD support and search integration
 Bug Fixes:
