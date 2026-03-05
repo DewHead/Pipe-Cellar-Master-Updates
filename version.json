@@ -1,30 +1,10 @@
 {
-  "latest_version": "1.18.57+235",
+  "latest_version": "1.18.58+236",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.57+235",
-      "notes": "AI: Upgraded scanner models to Gemini 3.1 Standard.\nTimeline: Redesigned aging progression.\nInventory: Advanced filtering and sorting for Cellar and Wishlist.\nScanner: Added photo saving and model selection overrides.\nSystem: Core performance updates and UI polish."
-    },
-    {
-      "version": "1.18.56+234",
-      "notes": "### Improvements\n- **Comprehensive Sorting**: New sorting options for Cellar and Wishlist (Name A-Z/Z-A, Newest/Oldest).\n- **Global Date Selection**: Choose between Manufacture Date or Cellared Date as your primary tracking date throughout the app.\n- **Improved Tin Visualization**: Tin cards now display the selected date (Mfg or Cellared) for better inventory tracking.\n- **Settings Consolidation**: Simplified preference settings with a unified Global Date Source selector.\n- **Enhanced Reliability**: Updated internal data models and database logic for consistent cross-screen sorting and display."
-    },
-    {
-      "version": "1.18.55+233",
-      "notes": "AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for improved extraction speed and accuracy.\nTimeline Enhancements: Added new 'Sub-group by Month' option for the Vertical Timeline layout.\nUI Refinements: Improved weight display formatting and refined timeline settings.\nReliability: Updated tests and internal logic for smoother navigation and data presentation."
-    },
-    {
-      "version": "1.18.54+232",
-      "notes": "AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for all operations, improving speed and extraction accuracy."
-    },
-    {
-      "version": "1.18.53+231",
-      "notes": "AI Model Update: Standardized on Gemini 3.1 Flash Lite for all operations; Updated configuration and documentation to reflect the latest model."
-    },
-    {
-      "version": "1.18.51+229",
-      "notes": "### Advanced Filtering & Sorting System\n- **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.\n- **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.\n- **Individual Tin Weight Tracking:** Track tobacco weight at the individual tin level for better accuracy.\n- **Enhanced Analytics:** Statistics updated to use precise per-tin weights.\n- **Advanced AI Scanner:** Gemini model overrides and photo saving options.\n- **Stability Improvements:** Improved backup, restore, and import logic with better duplicate detection."
+      "version": "1.18.58+236",
+      "notes": "### Improvements\n- AI: Upgraded scanner models to Gemini 3.1 Standard for improved accuracy.\n- Timeline: Redesigned aging progression for a more intuitive view of your collection.\n- Inventory: Comprehensive filtering and sorting options for both Cellar and Wishlist.\n- Scanner: Added photo saving and manual model selection overrides for advanced users.\n- System: Enhanced reliability for backup, restore, and import workflows with core performance updates."
     }
   ]
 }
