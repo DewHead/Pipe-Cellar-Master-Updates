@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.55+233",
+  "latest_version": "1.18.56+234",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.56+234",
+      "notes": "### Improvements\n- **Comprehensive Sorting**: New sorting options for Cellar and Wishlist (Name A-Z/Z-A, Newest/Oldest).\n- **Global Date Selection**: Choose between Manufacture Date or Cellared Date as your primary tracking date throughout the app.\n- **Improved Tin Visualization**: Tin cards now display the selected date (Mfg or Cellared) for better inventory tracking.\n- **Settings Consolidation**: Simplified preference settings with a unified Global Date Source selector.\n- **Enhanced Reliability**: Updated internal data models and database logic for consistent cross-screen sorting and display."
+    },
     {
       "version": "1.18.55+233",
       "notes": "AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for improved extraction speed and accuracy.\nTimeline Enhancements: Added new 'Sub-group by Month' option for the Vertical Timeline layout.\nUI Refinements: Improved weight display formatting and refined timeline settings.\nReliability: Updated tests and internal logic for smoother navigation and data presentation."
