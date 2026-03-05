@@ -10,6 +10,14 @@
 
 
 
+
+## Version 1.18.55+233 (2026-03-05)
+
+### Improvements
+- AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for improved extraction speed and accuracy.
+- Timeline Enhancements: Added new 'Sub-group by Month' option for the Vertical Timeline layout.
+- UI Refinements: Improved weight display formatting and refined timeline settings.
+- Reliability: Updated tests and internal logic for smoother navigation and data presentation.
 ## Version 1.18.54+232 (2026-03-05)
 
 ### Improvements
@@ -24,9 +32,7 @@
 - **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.
 - **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.
 - **Individual Tin Weight Tracking:** Track tobacco weight at the individual tin level for better accuracy.
-- **Enhanced Analytics:** Statistics updated to use precise per-tin weights.
-- **Advanced AI Scanner:** Gemini model overrides and photo saving options.
-- **Stability Improvements:** Improved backup, restore, and import logic with better duplicate detection.
+- **Enhanced Analytics:** Statistics updated to use precise per-tin weights.\n- **Advanced AI Scanner:** Gemini model overrides and photo saving options.\n- **Stability Improvements:** Improved backup, restore, and import logic with better duplicate detection.
 ## Version 1.18.50+228 (2026-03-04)
 
 ### Improvements

@@ -1,10 +1,22 @@
 {
-  "latest_version": "1.18.54+232",
+  "latest_version": "1.18.55+233",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
+      "version": "1.18.55+233",
+      "notes": "AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for improved extraction speed and accuracy.\nTimeline Enhancements: Added new 'Sub-group by Month' option for the Vertical Timeline layout.\nUI Refinements: Improved weight display formatting and refined timeline settings.\nReliability: Updated tests and internal logic for smoother navigation and data presentation."
+    },
+    {
       "version": "1.18.54+232",
       "notes": "AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for all operations, improving speed and extraction accuracy."
+    },
+    {
+      "version": "1.18.53+231",
+      "notes": "AI Model Update: Standardized on Gemini 3.1 Flash Lite for all operations; Updated configuration and documentation to reflect the latest model."
+    },
+    {
+      "version": "1.18.51+229",
+      "notes": "### Advanced Filtering & Sorting System\n- **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.\n- **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.\n- **Individual Tin Weight Tracking:** Track tobacco weight at the individual tin level for better accuracy.\n- **Enhanced Analytics:** Statistics updated to use precise per-tin weights.\n- **Advanced AI Scanner:** Gemini model overrides and photo saving options.\n- **Stability Improvements:** Improved backup, restore, and import logic with better duplicate detection."
     }
   ]
 }
