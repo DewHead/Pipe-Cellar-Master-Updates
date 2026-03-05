@@ -8,11 +8,6 @@
 
 
 
-
-## Version 1.18.52+230 (2026-03-05)
-
-### Improvements
-- AI Model Update: Standardized on Gemini 3.1 Flash Lite for all operations; Updated configuration and documentation to reflect the latest model.
 ## Version 1.18.51+229 (2026-03-04)
 
 ### Advanced Filtering & Sorting System
@@ -77,16 +72,15 @@
 ### Improvements
 - New Features:
 - Local Backup/Restore: Create ZIP backups with data + images, restore from device
-- AI Model Update: Standardized on gemini-3.1-flash-lite for all operations; Virtual Blending now honestly reports when cellar lacks suitable tobaccos
-- UI Enhancements: Recommendation reasons display on separate lines; "Tin added to cellar" snackbar when moving from wishlist; Scanner search refactored to fix crashes
-- Pipe Model Field: Added optional "Model" field to pipes with full CRUD support and search integration
+- AI Model Update: Default changed to gemini-2.5-flash-lite; Virtual Blending now honestly reports when cellar lacks suitable tobaccos
+- UI Enhancements: Recommendation reasons display on separate lines; \"Tin added to cellar\" snackbar when moving from wishlist; Scanner search refactored to fix crashes
+- Pipe Model Field: Added optional \"Model\" field to pipes with full CRUD support and search integration
 Bug Fixes:
 - Timeline navigation: Fixed blank screen crash for ungrouped tins; now routes correctly to individual or group detail screens
 - TinGroupDetailScreen: Graceful error handling for missing groups
 - Scanner manual search: Fixed Exception: No parts in search response content crash
 Technical:
-- Database migration v21 (adds pipes.model column)
-- Refactored WishlistSearchBottomSheet → reusable TobaccoSearchBottomSheet
+- Database migration v21 (adds pipes.model column)\n- Refactored WishlistSearchBottomSheet → reusable TobaccoSearchBottomSheet
 - Centralized AI model constant in ApiConfig
 - Export format enum updated: JSON → ZIP
 ## Version 1.18.40+218 (2026-03-02)
