@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.56+234",
+  "latest_version": "1.18.57+235",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.57+235",
+      "notes": "AI: Upgraded scanner models to Gemini 3.1 Standard.\nTimeline: Redesigned aging progression.\nInventory: Advanced filtering and sorting for Cellar and Wishlist.\nScanner: Added photo saving and model selection overrides.\nSystem: Core performance updates and UI polish."
+    },
     {
       "version": "1.18.56+234",
       "notes": "### Improvements\n- **Comprehensive Sorting**: New sorting options for Cellar and Wishlist (Name A-Z/Z-A, Newest/Oldest).\n- **Global Date Selection**: Choose between Manufacture Date or Cellared Date as your primary tracking date throughout the app.\n- **Improved Tin Visualization**: Tin cards now display the selected date (Mfg or Cellared) for better inventory tracking.\n- **Settings Consolidation**: Simplified preference settings with a unified Global Date Source selector.\n- **Enhanced Reliability**: Updated internal data models and database logic for consistent cross-screen sorting and display."
