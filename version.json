@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.18.52+230",
+  "latest_version": "1.18.53+231",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
-      "version": "1.18.52+230",
+      "version": "1.18.53+231",
       "notes": "AI Model Update: Standardized on Gemini 3.1 Flash Lite for all operations; Updated configuration and documentation to reflect the latest model."
     },
     {
