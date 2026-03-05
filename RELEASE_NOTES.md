@@ -9,15 +9,14 @@
 
 
 
-## Version 1.18.52+230 (2026-03-05)
+## Version 1.18.53+231 (2026-03-05)
 
 ### Improvements
 - AI Model Update: Standardized on Gemini 3.1 Flash Lite for all operations; Updated configuration and documentation to reflect the latest model.
 ## Version 1.18.51+229 (2026-03-04)
 
 ### Advanced Filtering & Sorting System
-- **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.
-- **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.
+- **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.\n- **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.
 - **Individual Tin Weight Tracking:** Track tobacco weight at the individual tin level for better accuracy.
 - **Enhanced Analytics:** Statistics updated to use precise per-tin weights.
 - **Advanced AI Scanner:** Gemini model overrides and photo saving options.
