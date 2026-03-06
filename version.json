@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.59+237",
+  "latest_version": "1.18.60+238",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.60+238",
+      "notes": "UI: Refined the Blend Details view in the Tin Group screen to be always visible and better organized."
+    },
     {
       "version": "1.18.59+237",
       "notes": "### New Features\n- **📊 Tobacco Characteristics**: Added a new visualization for tobacco strength, flavor intensity, and room note, giving you deeper insights into your collection.\n- **🔄 Dynamic Filter Bar**: Introduced a more intuitive filter chip system for the inventory screens.\n- **📦 Improved Tin Grouping**: Added collapsible sections for tin groups and a refined group detail view for better organization.\n### Improvements\n- **⚖️ Weight Display**: Cleaned up the weight display by removing redundant parentheses.\n- **⚙️ Settings Refinement**: Simplified preference settings by removing redundant sorting options.\n- **🚀 System Reliability**: Improved the robustness of data import and restoration workflows."
