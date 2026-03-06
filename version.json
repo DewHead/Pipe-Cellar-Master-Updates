@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.62+240",
+  "latest_version": "1.18.63+241",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.63+241",
+      "notes": "### Improvements\n- **⚙️ AI Data Sanitization**: Added robustness to Gemini service for parsing tobacco characteristics from AI output.\n- **🎨 UI Polish**: Improved stability in the Edit Tin screen with safer integer handling."
+    },
     {
       "version": "1.18.62+240",
       "notes": "### New Features\n- **📦 Tobacco Characteristics in Tin Groups**: Added Strength, Flavoring, Room Note and Taste visualization to the Tin Group screen.\n### Improvements\n- **⚙️ AI Analysis UI**: Refined Settings screen for clearer bulk analysis progress.\n- **🔄 Data Import**: Enhanced validation and handling of tobacco characteristics during JSON imports."
