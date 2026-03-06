@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.63+241",
+  "latest_version": "1.18.64+242",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.64+242",
+      "notes": "### New Features\n- **📦 Incremental Bulk Analysis**: AI analysis of your collection is now more responsive, providing real-time UI updates as each group is processed.\n- **🔄 Automatic Data Sync**: Adding a tin with AI-scanned characteristics now automatically updates the associated brand/blend group for a more unified view.\n### Improvements\n- **⚙️ State Management**: Refined the inventory state logic to ensure the UI remains snappy during long-running bulk operations."
+    },
     {
       "version": "1.18.63+241",
       "notes": "### Improvements\n- **⚙️ AI Data Sanitization**: Added robustness to Gemini service for parsing tobacco characteristics from AI output.\n- **🎨 UI Polish**: Improved stability in the Edit Tin screen with safer integer handling."
