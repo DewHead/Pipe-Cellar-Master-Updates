@@ -19,6 +19,14 @@
 
 
 
+
+## Version 1.18.64+242 (2026-03-06)
+
+### New Features
+- **📦 Incremental Bulk Analysis**: AI analysis of your collection is now more responsive, providing real-time UI updates as each group is processed.
+- **🔄 Automatic Data Sync**: Adding a tin with AI-scanned characteristics now automatically updates the associated brand/blend group for a more unified view.
+### Improvements
+- **⚙️ State Management**: Refined the inventory state logic to ensure the UI remains snappy during long-running bulk operations.
 ## Version 1.18.63+241 (2026-03-06)
 
 ### Improvements
@@ -42,22 +50,44 @@
 ## Version 1.18.59+237 (2026-03-06)
 
 ### New Features
-- **📊 Tobacco Characteristics**: Added a new visualization for tobacco strength, flavor intensity, and room note, giving you deeper insights into your collection.\n- **🔄 Dynamic Filter Bar**: Introduced a more intuitive filter chip system for the inventory screens.\n- **📦 Improved Tin Grouping**: Added collapsible sections for tin groups and a refined group detail view for better organization.\n### Improvements\n- **⚖️ Weight Display**: Cleaned up the weight display by removing redundant parentheses.\n- **⚙️ Settings Refinement**: Simplified preference settings by removing redundant sorting options.\n- **🚀 System Reliability**: Improved the robustness of data import and restoration workflows.\n## Version 1.18.58+236 (2026-03-06)
+- **📊 Tobacco Characteristics**: Added a new visualization for tobacco strength, flavor intensity, and room note, giving you deeper insights into your collection.
+- **🔄 Dynamic Filter Bar**: Introduced a more intuitive filter chip system for the inventory screens.
+- **📦 Improved Tin Grouping**: Added collapsible sections for tin groups and a refined group detail view for better organization.
+### Improvements
+- **⚖️ Weight Display**: Cleaned up the weight display by removing redundant parentheses.
+- **⚙️ Settings Refinement**: Simplified preference settings by removing redundant sorting options.
+- **🚀 System Reliability**: Improved the robustness of data import and restoration workflows.
+## Version 1.18.58+236 (2026-03-06)
 
 ### Improvements
-- AI: Upgraded scanner models to Gemini 3.1 Standard for improved accuracy.\n- Timeline: Redesigned aging progression for a more intuitive view of your collection.\n- Inventory: Comprehensive filtering and sorting options for both Cellar and Wishlist.\n- Scanner: Added photo saving and manual model selection overrides for advanced users.\n- System: Enhanced reliability for backup, restore, and import workflows with core performance updates.
+- AI: Upgraded scanner models to Gemini 3.1 Standard for improved accuracy.
+- Timeline: Redesigned aging progression for a more intuitive view of your collection.
+- Inventory: Comprehensive filtering and sorting options for both Cellar and Wishlist.
+- Scanner: Added photo saving and manual model selection overrides for advanced users.
+- System: Enhanced reliability for backup, restore, and import workflows with core performance updates.
 ## Version 1.18.57+235 (2026-03-05)
 
 ### Improvements
-- AI: Upgraded scanner models to Gemini 3.1 Standard.\n- Timeline: Redesigned aging progression.\n- Inventory: Advanced filtering and sorting for Cellar and Wishlist.\n- Scanner: Added photo saving and model selection overrides.\n- System: Core performance updates and UI polish.
+- AI: Upgraded scanner models to Gemini 3.1 Standard.
+- Timeline: Redesigned aging progression.
+- Inventory: Advanced filtering and sorting for Cellar and Wishlist.
+- Scanner: Added photo saving and model selection overrides.
+- System: Core performance updates and UI polish.
 ## Version 1.18.56+234 (2026-03-05)
 
 ### Improvements
-- **Comprehensive Sorting**: New sorting options for Cellar and Wishlist (Name A-Z/Z-A, Newest/Oldest).\n- **Global Date Selection**: Choose between Manufacture Date or Cellared Date as your primary tracking date throughout the app.\n- **Improved Tin Visualization**: Tin cards now display the selected date (Mfg or Cellared) for better inventory tracking.\n- **Settings Consolidation**: Simplified preference settings with a unified Global Date Source selector.\n- **Enhanced Reliability**: Updated internal data models and database logic for consistent cross-screen sorting and display.
+- **Comprehensive Sorting**: New sorting options for Cellar and Wishlist (Name A-Z/Z-A, Newest/Oldest).
+- **Global Date Selection**: Choose between Manufacture Date or Cellared Date as your primary tracking date throughout the app.
+- **Improved Tin Visualization**: Tin cards now display the selected date (Mfg or Cellared) for better inventory tracking.
+- **Settings Consolidation**: Simplified preference settings with a unified Global Date Source selector.
+- **Enhanced Reliability**: Updated internal data models and database logic for consistent cross-screen sorting and display.
 ## Version 1.18.55+233 (2026-03-05)
 
 ### Improvements
-- AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for improved extraction speed and accuracy.\n- Timeline Enhancements: Added new 'Sub-group by Month' option for the Vertical Timeline layout.\n- UI Refinements: Improved weight display formatting and refined timeline settings.\n- Reliability: Updated tests and internal logic for smoother navigation and data presentation.
+- AI Model Upgrade: Standardized on Gemini 3.1 Flash Lite Preview for improved extraction speed and accuracy.
+- Timeline Enhancements: Added new 'Sub-group by Month' option for the Vertical Timeline layout.
+- UI Refinements: Improved weight display formatting and refined timeline settings.
+- Reliability: Updated tests and internal logic for smoother navigation and data presentation.
 ## Version 1.18.54+232 (2026-03-05)
 
 ### Improvements
@@ -69,11 +99,20 @@
 ## Version 1.18.51+229 (2026-03-04)
 
 ### Advanced Filtering & Sorting System
-- **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.\n- **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.\n- **Individual Tin Weight Tracking:** Track tobacco weight at the individual tin level for better accuracy.\n- **Enhanced Analytics:** Statistics updated to use precise per-tin weights.\n- **Advanced AI Scanner:** Gemini model overrides and photo saving options.\n- **Stability Improvements:** Improved backup, restore, and import logic with better duplicate detection.
+- **Advanced Filtering:** New multi-select filter bar with persistent state and support for Brand, Blend, Type, and more.
+- **Inventory UI Overhaul:** Streamlined Cellar and Wishlist screens with sticky headers and improved layout.
+- **Individual Tin Weight Tracking:** Track tobacco weight at the individual tin level for better accuracy.
+- **Enhanced Analytics:** Statistics updated to use precise per-tin weights.
+- **Advanced AI Scanner:** Gemini model overrides and photo saving options.
+- **Stability Improvements:** Improved backup, restore, and import logic with better duplicate detection.
 ## Version 1.18.50+228 (2026-03-04)
 
 ### Improvements
-- Individual Tin Weight Tracking: Tobacco weight is now tracked at the individual tin level.\n- Improved Analytics: Dashboard statistics now use individual tin weights.\n- Advanced Scanner Features: Added Gemini model overrides and photo saving options.\n- Enhanced Data Reliability: Improved backup, restore, and import logic with better duplicate detection.\n- UI Polish: Relocated the Cellar/Wishlist sort button and updated tin count styling.
+- Individual Tin Weight Tracking: Tobacco weight is now tracked at the individual tin level.
+- Improved Analytics: Dashboard statistics now use individual tin weights.
+- Advanced Scanner Features: Added Gemini model overrides and photo saving options.
+- Enhanced Data Reliability: Improved backup, restore, and import logic with better duplicate detection.
+- UI Polish: Relocated the Cellar/Wishlist sort button and updated tin count styling.
 ## Version 1.18.49+227 (2026-03-03)
 
 ### Improvements
@@ -81,11 +120,16 @@
 ## Version 1.18.48+226 (2026-03-03)
 
 ### Improvements
-- Scanner UI: Added 'Save Photo' option for camera-captured images, allowing users to keep a local copy of their tobacco tins.\n- AI Analysis: Updated GeminiService to support specific model overrides, ensuring more robust and optimized tobacco analysis.\n- UI Polish: Minor layout improvements in the scanner screen.
+- Scanner UI: Added 'Save Photo' option for camera-captured images, allowing users to keep a local copy of their tobacco tins.
+- AI Analysis: Updated GeminiService to support specific model overrides, ensuring more robust and optimized tobacco analysis.
+- UI Polish: Minor layout improvements in the scanner screen.
 ## Version 1.18.47+225 (2026-03-03)
 
 ### Improvements
-- AI Scanner: Improved error handling for blocked or unclear image analysis. Added specific safety filter feedback.\n- Scanner UI: Enhanced state persistence during failed analysis for better visibility of error messages.\n- Error Handling: Implemented a robust error sanitizer to provide clearer, human-readable messages across the application.\n- Data Management: Optimized isolate-based backup restoration for better stability with large collections.
+- AI Scanner: Improved error handling for blocked or unclear image analysis. Added specific safety filter feedback.
+- Scanner UI: Enhanced state persistence during failed analysis for better visibility of error messages.
+- Error Handling: Implemented a robust error sanitizer to provide clearer, human-readable messages across the application.
+- Data Management: Optimized isolate-based backup restoration for better stability with large collections.
 ## Version 1.18.46+224 (2026-03-03)
 
 ### Improvements
@@ -101,15 +145,33 @@
 ## Version 1.18.43+221 (2026-03-03)
 
 ### Improvements
-- Data Management Overhaul: Merged Local Backup and Data Export/Import into a unified experience.\n- Tin Quantity Display: Now shows total quantity on each tin card in groups.\n- Improved Tobacco Search: Unified and more reliable search for both Cellar and Wishlist.\n- AI Performance: Optimized Gemini models for faster tobacco analysis.\n- General Maintenance: Bug fixes for timeline navigation and scanner stability.
+- Data Management Overhaul: Merged Local Backup and Data Export/Import into a unified experience.
+- Tin Quantity Display: Now shows total quantity on each tin card in groups.
+- Improved Tobacco Search: Unified and more reliable search for both Cellar and Wishlist.
+- AI Performance: Optimized Gemini models for faster tobacco analysis.
+- General Maintenance: Bug fixes for timeline navigation and scanner stability.
 ## Version 1.18.42+220 (2026-03-03)
 
 ### Improvements
-- **Data Management Overhaul:** Merged Local Backup and Data Export/Import into a unified Data Management section in settings. This provides a streamlined user experience for backup, restore, and data export functionalities. The new section includes options for creating and restoring local backups, exporting data to CSV and PDF formats, and importing data from various sources.\n- **Tin Quantity Display:** The  now displays the total quantity of each tin item within a group, providing users with at-a-glance information. A chip indicating the total count (e.g., 2 Total) appears if the quantity is greater than one.
+- **Data Management Overhaul:** Merged Local Backup and Data Export/Import into a unified Data Management section in settings. This provides a streamlined user experience for backup, restore, and data export functionalities. The new section includes options for creating and restoring local backups, exporting data to CSV and PDF formats, and importing data from various sources.
+- **Tin Quantity Display:** The  now displays the total quantity of each tin item within a group, providing users with at-a-glance information. A chip indicating the total count (e.g., 2 Total) appears if the quantity is greater than one.
 ## Version 1.18.41+219 (2026-03-03)
 
 ### Improvements
-- New Features:\n- Local Backup/Restore: Create ZIP backups with data + images, restore from device\n- AI Model Update: Standardized on gemini-3.1-flash-lite-preview for all operations; Virtual Blending now honestly reports when cellar lacks suitable tobaccos\n- UI Enhancements: Recommendation reasons display on separate lines; \\\"Tin added to cellar\\\" snackbar when moving from wishlist; Scanner search refactored to fix crashes\n- Pipe Model Field: Added optional \\\"Model\\\" field to pipes with full CRUD support and search integration\nBug Fixes:\n- Timeline navigation: Fixed blank screen crash for ungrouped tins; now routes correctly to individual or group detail screens\n- TinGroupDetailScreen: Graceful error handling for missing groups\n- Scanner manual search: Fixed Exception: No parts in search response content crash\nTechnical:\n- Database migration v21 (adds pipes.model column)\n- Refactored WishlistSearchBottomSheet \\u2192 reusable TobaccoSearchBottomSheet\n- Centralized AI model constant in ApiConfig\n- Export format enum updated: JSON \\u2192 ZIP
+- New Features:
+- Local Backup/Restore: Create ZIP backups with data + images, restore from device
+- AI Model Update: Standardized on gemini-3.1-flash-lite-preview for all operations; Virtual Blending now honestly reports when cellar lacks suitable tobaccos
+- UI Enhancements: Recommendation reasons display on separate lines; "Tin added to cellar" snackbar when moving from wishlist; Scanner search refactored to fix crashes
+- Pipe Model Field: Added optional "Model" field to pipes with full CRUD support and search integration
+Bug Fixes:
+- Timeline navigation: Fixed blank screen crash for ungrouped tins; now routes correctly to individual or group detail screens
+- TinGroupDetailScreen: Graceful error handling for missing groups
+- Scanner manual search: Fixed Exception: No parts in search response content crash
+Technical:
+- Database migration v21 (adds pipes.model column)
+- Refactored WishlistSearchBottomSheet → reusable TobaccoSearchBottomSheet
+- Centralized AI model constant in ApiConfig
+- Export format enum updated: JSON → ZIP
 ## Version 1.18.40+218 (2026-03-02)
 
 ### Improvements
@@ -141,7 +203,10 @@
 ## Version 1.18.33+211 (2026-03-02)
 
 ### Improvements
-- Centralized date formatting for consistent display across all screens.\n- Improved UpdateService reliability and simplified logic by removing redundant URLs.\n- Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production.\n- UI refinements for edit screens and analytics dashboard.
+- Centralized date formatting for consistent display across all screens.
+- Improved UpdateService reliability and simplified logic by removing redundant URLs.
+- Added ProGuard rules for the in_app_update plugin to ensure consistent background updates in production.
+- UI refinements for edit screens and analytics dashboard.
 ## Version 1.18.32+210 (2026-03-02)
 
 ### Improvements
@@ -185,7 +250,10 @@
 ## Version 1.18.22+200 (2026-03-02)
 
 ### Improvements
-- UI Accessibility and Update Reliability\n- Added 'Starting update' state for smoother transitions.\n- Improved progress indicators and status messages during the update process.\n- Fixed update state handling to ensure consistent UI across different parts of the app.
+- UI Accessibility and Update Reliability
+- Added 'Starting update' state for smoother transitions.
+- Improved progress indicators and status messages during the update process.
+- Fixed update state handling to ensure consistent UI across different parts of the app.
 ## Version 1.18.21+199 (2026-03-02)
 
 ### Improvements
@@ -225,7 +293,13 @@
 ## Version 1.18.12+190 (2026-03-02)
 
 ### Improvements
-- Major UI Enhancements & Update System Reliability\n- New background update progress bar with percentage\n- Visual update badge on Settings icon\n- Dismissible update banners with 'Later' button\n- Optimized date display: Manufactured Date prioritized over Cellar Date\n- Visual tin group selection with images\n- Switched to 'in_app_update_me' for improved reliability
+- Major UI Enhancements & Update System Reliability
+- New background update progress bar with percentage
+- Visual update badge on Settings icon
+- Dismissible update banners with 'Later' button
+- Optimized date display: Manufactured Date prioritized over Cellar Date
+- Visual tin group selection with images
+- Switched to 'in_app_update_me' for improved reliability
 ## Version 1.18.11+189 (2026-03-02)
 
 ### Improvements
@@ -237,61 +311,111 @@
 ## Version 1.18.9+187 (2026-03-01)
 
 ### Features
-- **Vertical Timeline**: Introduced a new vertical timeline layout for the cellar, providing a chronological view of tobacco history and aging.\n- **Pipe Selection UI**: Enhanced the smoke logging experience with a new PipeSelectionBottomSheet for easier pipe discovery and selection.\n### Improvements\n- **Recommendation Engine**: Refined the 'What Should I Smoke?' engine with improved logic and UI for better tobacco suggestions.\n- **Settings & UI**: Added new preference settings for display modes and polished the overall app shell navigation.\n- **App Update Indication**: Integrated visual cues for pending updates within the settings and main navigation.
+- **Vertical Timeline**: Introduced a new vertical timeline layout for the cellar, providing a chronological view of tobacco history and aging.
+- **Pipe Selection UI**: Enhanced the smoke logging experience with a new PipeSelectionBottomSheet for easier pipe discovery and selection.
+### Improvements
+- **Recommendation Engine**: Refined the 'What Should I Smoke?' engine with improved logic and UI for better tobacco suggestions.
+- **Settings & UI**: Added new preference settings for display modes and polished the overall app shell navigation.
+- **App Update Indication**: Integrated visual cues for pending updates within the settings and main navigation.
 ## Version 1.18.8+186 (2026-03-01)
 
 ### Maintenance
-- Code quality and performance improvements\n- Minor UI refinements and layout polish\n- Updated and verified all tests for the latest changes
+- Code quality and performance improvements
+- Minor UI refinements and layout polish
+- Updated and verified all tests for the latest changes
 ## Version 1.18.7+185 (2026-03-01)
 
 ### Features
-- **Pipe Shape Icons**: Major SVG path refinements and added 6 new shapes (Bent Billiard, Bent Apple, Bent Dublin, Rhodesian, Cherrywood, Prince).\n- **Wishlist UI**: Enhanced search and type filters with improved list tile layouts.\n### Improvements\n- **AI Optimization**: Improved pairing suggestions and background analysis handling.\n- **Auto-Update**: Added check for updates when the app is resumed.\n- **Pipe Management**: Default material set to 'Briar' for new pipes.\n### Technical\n- **Bug Fixes**: Improved AsyncNotifier handling and fixed long flavor tags UI.
+- **Pipe Shape Icons**: Major SVG path refinements and added 6 new shapes (Bent Billiard, Bent Apple, Bent Dublin, Rhodesian, Cherrywood, Prince).
+- **Wishlist UI**: Enhanced search and type filters with improved list tile layouts.
+### Improvements
+- **AI Optimization**: Improved pairing suggestions and background analysis handling.
+- **Auto-Update**: Added check for updates when the app is resumed.
+- **Pipe Management**: Default material set to 'Briar' for new pipes.
+### Technical
+- **Bug Fixes**: Improved AsyncNotifier handling and fixed long flavor tags UI.
 ## Version 1.18.6+184 (2026-03-01)
 
 ### Features
-- **Pipe Collection Enhancements**: Standardized Brand and Shape dropdowns with custom icons for all major shapes (Billiard, Bulldog, Apple, etc.).\n- **Wishlist UI Refinement**: Compact PopupMenu for actions and improved search bottom sheet for easier wishlist navigation.\n- **AI Integration**: Optimized Gemini prompts for more concise and focused Pairing/Flavor insights.\n- **Maintenance**: Cleaned up unused assets and added SVG support for enhanced iconography.
+- **Pipe Collection Enhancements**: Standardized Brand and Shape dropdowns with custom icons for all major shapes (Billiard, Bulldog, Apple, etc.).
+- **Wishlist UI Refinement**: Compact PopupMenu for actions and improved search bottom sheet for easier wishlist navigation.
+- **AI Integration**: Optimized Gemini prompts for more concise and focused Pairing/Flavor insights.
+- **Maintenance**: Cleaned up unused assets and added SVG support for enhanced iconography.
 ## Version 1.18.5+183 (2026-03-01)
 
 ### Features
-- **AI Pairings Enhancement**: Dedicated PairingsBottomSheet for better organization and reusable AI logic.\n- **Enhanced Release Notes**: Real-time updates from GitHub with version comparison and local fallback.\n- **Pipe Management**: 'Unsaved Changes' protection in EditPipeScreen and 'Pipe Resting Period' info in PipeListScreen.\n- **UI/UX Refinements**: Persistent update banners in AppShell and consolidated flavor visualization settings.
+- **AI Pairings Enhancement**: Dedicated PairingsBottomSheet for better organization and reusable AI logic.
+- **Enhanced Release Notes**: Real-time updates from GitHub with version comparison and local fallback.
+- **Pipe Management**: 'Unsaved Changes' protection in EditPipeScreen and 'Pipe Resting Period' info in PipeListScreen.
+- **UI/UX Refinements**: Persistent update banners in AppShell and consolidated flavor visualization settings.
 ## Version 1.18.4+182 (2026-03-01)
 
 ### Improvements
-- Recommendation Engine: Refined AI-generated recommendation logic with improved grammar and phrasing.\n- Enhanced Trending Analytics: Optimized GeminiService with caching and streamlined data schemas for trending tobaccos.\n- Deep Tobacco Details: New ability to fetch comprehensive specifications and flavor profiles for individual blends.\n- Official Blending Data: Integrated official GL Pease blend descriptions for superior data accuracy.\n- UI/UX Polish: Mirrored iconography and improved visual balance in navigation and detail screens.
+- Recommendation Engine: Refined AI-generated recommendation logic with improved grammar and phrasing.
+- Enhanced Trending Analytics: Optimized GeminiService with caching and streamlined data schemas for trending tobaccos.
+- Deep Tobacco Details: New ability to fetch comprehensive specifications and flavor profiles for individual blends.
+- Official Blending Data: Integrated official GL Pease blend descriptions for superior data accuracy.
+- UI/UX Polish: Mirrored iconography and improved visual balance in navigation and detail screens.
 ## Version 1.18.3+181 (2026-03-01)
 
 ### Improvements
-- **Dynamic Release Notes**: Real-time fetching from GitHub with local asset fallback for transparency.\n- **Enhanced Release Automation**: Updated release-manager skill with GitHub manifest upload workflow.\n- **Improved UI/UX**: Polished loading states and synchronization for release notes viewer.
+- **Dynamic Release Notes**: Real-time fetching from GitHub with local asset fallback for transparency.
+- **Enhanced Release Automation**: Updated release-manager skill with GitHub manifest upload workflow.
+- **Improved UI/UX**: Polished loading states and synchronization for release notes viewer.
 ## Version 1.18.2+180 (2026-03-01)
 
 ### Improvements
-- UI: Replaced generic pipe icons with more specific smoking pipe iconography.\n- AI: Refined prompts and temperature settings for more concise and focused blending and pairing recommendations.
+- UI: Replaced generic pipe icons with more specific smoking pipe iconography.
+- AI: Refined prompts and temperature settings for more concise and focused blending and pairing recommendations.
 ## Version 1.18.1+179 (2026-03-01)
 
 ### Features
-- Direct In-App Updates: Integrated 'in_app_update' for seamless Google Play managed updates (Immediate & Flexible).\n- Detailed Changelog Manifest: Fetch rich release notes from the dedicated Updates repository for enhanced transparency.\n- Test Maintenance: Updated mocks and stability for Gemini service and Settings features.
+- Direct In-App Updates: Integrated 'in_app_update' for seamless Google Play managed updates (Immediate & Flexible).
+- Detailed Changelog Manifest: Fetch rich release notes from the dedicated Updates repository for enhanced transparency.
+- Test Maintenance: Updated mocks and stability for Gemini service and Settings features.
 ## Version 1.18.0+178 (2026-03-01)
 
 ### Features
-- Virtual Blending: Use Gemini AI to create custom blends from your existing cellar inventory.\n- AI Pairings: Personalized beverage and activity suggestions based on tobacco flavor profiles.
+- Virtual Blending: Use Gemini AI to create custom blends from your existing cellar inventory.
+- AI Pairings: Personalized beverage and activity suggestions based on tobacco flavor profiles.
 ### Improvements
-- UI refinements for cellar and detail screens.\n- Enhanced Gemini service error handling and integration tests.
+- UI refinements for cellar and detail screens.
+- Enhanced Gemini service error handling and integration tests.
 ## Version 1.17.0+177 (2026-03-01)
 
 ### Features
-- **Pipe Collection**: Manage your physical pipes with brand, model, and material tracking.\n- **Smoke Sessions**: Track what you smoke and in which pipe for a complete history.\n- **Rotation Management**: Monitor pipe rest times and usage history.\n- **In-App Updates**: Stay up to date with the latest features via automatic update checks.\n\n### Improvements\n- Enhanced backup/restore reliability.\n- Refined data export/import for large collections.\n- Polished Material 3 navigation and UI components.
+- **Pipe Collection**: Manage your physical pipes with brand, model, and material tracking.
+- **Smoke Sessions**: Track what you smoke and in which pipe for a complete history.
+- **Rotation Management**: Monitor pipe rest times and usage history.
+- **In-App Updates**: Stay up to date with the latest features via automatic update checks.
+
+### Improvements
+- Enhanced backup/restore reliability.
+- Refined data export/import for large collections.
+- Polished Material 3 navigation and UI components.
 ## Version 1.16.2+176 (2026-03-01)
 
 ### Features
-- **Trending Tobaccos**: Discover popular tobacco blends in real-time with Gemini AI and Google Search integration.\n- **Recommendation Insights**: Added an info icon to the 'What Should I Smoke?' engine explaining the selection criteria (Open status, Aging, Time of Day).
+- **Trending Tobaccos**: Discover popular tobacco blends in real-time with Gemini AI and Google Search integration.
+- **Recommendation Insights**: Added an info icon to the 'What Should I Smoke?' engine explaining the selection criteria (Open status, Aging, Time of Day).
 ## Version 1.16.1+175 (2026-02-28)
 
 ### Features
-- **'What Should I Smoke?' Engine**: Intelligent, context-aware tobacco recommendations from your cellar based on Time of Day, Aging, and Open items.\n- **Interactive Recommendations**: A new 'Casino' action in the Cellar screen that triggers a beautiful bottom sheet with 'Roll Again' and 'Let's Smoke' functionality.\n\n### Improvements\n- **Smart Scoring**: Logic that prioritizes open tins, optimally aged blends, and current time-of-day preferences (Morning, Afternoon, Evening).\n- **Navigation Shortcuts**: Jump directly to the recommended blend's detail screen with one tap.
+- **'What Should I Smoke?' Engine**: Intelligent, context-aware tobacco recommendations from your cellar based on Time of Day, Aging, and Open items.
+- **Interactive Recommendations**: A new 'Casino' action in the Cellar screen that triggers a beautiful bottom sheet with 'Roll Again' and 'Let's Smoke' functionality.
+
+### Improvements
+- **Smart Scoring**: Logic that prioritizes open tins, optimally aged blends, and current time-of-day preferences (Morning, Afternoon, Evening).
+- **Navigation Shortcuts**: Jump directly to the recommended blend's detail screen with one tap.
 ## Version 1.16.0+174 (2026-02-28)
 
 ### Features
-- **Advanced Analytics:** Introduced daily consumption tracking and sophisticated aging analytics for better inventory management.\n- **Import Reliability:** Enhanced duplicate detection for JSON imports and fixed edge cases in data validation.\n\n### Improvements\n- **Auth & Connectivity:** Refined OAuth 2.0 flows and improved cloud backup sorting with localized display times.\n- **Data Integrity:** Database refinements to support consumption history and improved AI scanner reliability.
+- **Advanced Analytics:** Introduced daily consumption tracking and sophisticated aging analytics for better inventory management.
+- **Import Reliability:** Enhanced duplicate detection for JSON imports and fixed edge cases in data validation.
+
+### Improvements
+- **Auth & Connectivity:** Refined OAuth 2.0 flows and improved cloud backup sorting with localized display times.
+- **Data Integrity:** Database refinements to support consumption history and improved AI scanner reliability.
 ## Version 1.15.5+171 (2026-02-28)
 
 ### Improvements
@@ -299,24 +423,396 @@
 ## Version 1.15.4+170 (2026-02-28)
 
 ### Improvements
-- Fixed missing flavor wheel (radar chart) for new tins.\n- Enhanced Gemini AI prompts for more consistent flavor data.\n- Added \"Fetch AI Flavor Profile\" button as a fallback.\n- Improved flavor data parsing and normalization.
+- Fixed missing flavor wheel (radar chart) for new tins.
+- Enhanced Gemini AI prompts for more consistent flavor data.
+- Added "Fetch AI Flavor Profile" button as a fallback.
+- Improved flavor data parsing and normalization.
 ## Version 1.15.3+169 (2026-02-28)
 
 ### Improvements
-- Improved cloud backup sorting with localized display times.\n- Fixed JSON import to allow partial success on validation errors.\n- Refined AI scanner grounding and hallucination prevention.\n- Enhanced duplicate detection for blends during import.
+- Improved cloud backup sorting with localized display times.
+- Fixed JSON import to allow partial success on validation errors.
+- Refined AI scanner grounding and hallucination prevention.
+- Enhanced duplicate detection for blends during import.
 ## Version 1.15.2+168 (2026-02-28)
 
 ### Improvements
-- Refined AI scanner grounding and hallucination prevention.\n- Enhanced cloud backup sorting with localized display times.\n- Finalized Currency Support and Analytics enhancements.\n\n## Version 1.15.1+167 (2026-02-28)
+- Refined AI scanner grounding and hallucination prevention.
+- Enhanced cloud backup sorting with localized display times.
+- Finalized Currency Support and Analytics enhancements.
+
+## Version 1.15.1+167 (2026-02-28)
 
 ### Improvements
-- Finalized Currency Support and Analytics enhancements.\n- Minor build refinements and dependency synchronization.\n- Improved AI scanner grounding and hallucination prevention.\n- Enhanced cloud backup sorting with localized display times.
+- Finalized Currency Support and Analytics enhancements.
+- Minor build refinements and dependency synchronization.
+- Improved AI scanner grounding and hallucination prevention.
+- Enhanced cloud backup sorting with localized display times.
 ## Version 1.15.0+166 (2026-02-28)
 
 ### Features
-- Currency Support: Integrated multi-currency handling (USD, EUR, ILS) for tin prices and analytics totals.\n- Analytics Enhancements: Added currency-based valuation filtering and localized formatting.\n\n### Improvements\n- AI Reliability: Enhanced hallucination prevention in scanner logic and improved brand/manufacturer distinction.\n- Data Integrity: Database migration to v18 to support currency tracking.\n- Improved Scraper: Revamped G.L. Pease description scraping for higher accuracy.\n- Cloud Backup: Improved sorting with localized display times.\n- JSON Import: Enhanced robustness to allow partial success on validation errors.
+- Currency Support: Integrated multi-currency handling (USD, EUR, ILS) for tin prices and analytics totals.
+- Analytics Enhancements: Added currency-based valuation filtering and localized formatting.
+
+### Improvements
+- AI Reliability: Enhanced hallucination prevention in scanner logic and improved brand/manufacturer distinction.
+- Data Integrity: Database migration to v18 to support currency tracking.
+- Improved Scraper: Revamped G.L. Pease description scraping for higher accuracy.
+- Cloud Backup: Improved sorting with localized display times.
+- JSON Import: Enhanced robustness to allow partial success on validation errors.
 ## Version 1.14.0+164 (2026-02-28)
 
 ### Improvements
-- AI Search Enrichment: Mandatory web verification for identified tobacco blends to eliminate hallucinations.\n- AI Search Analysis: Search-enabled flavor analysis for more accurate intensity profiles.\n- Data Integrity: Automatic cleanup of orphaned tin groups during import/restore.\n- Authentication: Improved user preference handling for automatic Google Sign-In prompts.\n- Testing: Updated comprehensive integration tests and mocks for AI services.\n\n\n## Version 1.13.5+163 (2026-02-28)\n\n\n### AI & Scanner\n- Added Google Search fallback to Gemini scanner for improved blend identification.\n- Prioritized authoritative data sources (TobaccoReviews, SmokingPipes) for AI extraction.\n\n### Cloud & Backup\n- Robust cloud backup listing with name-based sorting and localized times.\n- Fixed restoration hang using SQLite Batch API for large collections.\n\n### Performance & Integrity\n- Database migrated to v17 with orphaned group cleanup and case-insensitive indexing.\n- Offloaded diagnostic log generation to background isolates to ensure UI responsiveness.\n\n### UI & UX\n- Added Safe Area support for backup selection sheets.\n- Enhanced import summary with detailed cellar vs wishlist counts.\n## Version 1.13.4+162 (2026-02-28)\n\n### Bug Fixes\n- Fixed robust cloud backup listing with name-based sorting and localized display times.\n- Improved backup entry display with localized time formats for better readability.\n## Version 1.13.3+161 (2026-02-28)\n\n### Improvements\n- Fix Cloud Restore issue: Ensure newly created backups appear correctly by using modifiedTime for deterministic folder and file selection in Google Drive. Verified with comprehensive integration tests.\n## Version 1.13.2+160 (2026-02-28)\n\n### Performance & Integrity\n- Fixed 'Processing database updates...' hang during restore using the SQLite Batch API.\n- Optimized import performance for large collections via a new group-lookup cache.\n- Parallelized physical image restoration for significantly faster recovery.\n- Updated database to v16 with case-insensitive indexing for faster searches.\n\n### Bug Fixes\n- Fixed a critical issue where tin quantities were reset to 1 during restoration.\n\n### Quality & Testing\n- Implemented comprehensive E2E integration tests for the full backup/restore lifecycle (local and cloud).\n## Version 1.13.1+159 (2026-02-27)\n\n### Improvements\n- Avoid partial imports on validation errors and improve total count accuracy.
-## Version 1.13.0+158 (2026-02-27)\n\n### New Features\n- **📊 Cellar Analytics Dashboard**: Get visual insights into your collection with pie charts for blend types, bar charts for top brands, and key metrics like total value and weight.\n- **💰 Price Tracking**: Record the purchase price of your tins to track collection value over time.\n\n### Refactors & Upgrades\n- Upgraded project dependencies to latest compatible major versions (Riverpod 3.x, fl_chart 1.x, googleapis 16.x)\n- Refactored core application controllers (Settings, Import, Notifications) to comply with Riverpod 3.x Notifier patterns\n- Replaced the discontinued `flutter_markdown` package with `flutter_markdown_plus` for better stability and performance\n- Updated the entire test suite (132 tests) to accommodate `Ref` class sealing and new `Notifier` override APIs\n- Verified system stability with 100% test pass rate post-refactor\n\n## Version 1.12.5+157 (2026-02-27)\n\n### Improvements\n- Integrated search functionality for app information and refined flavor profile visualizations\n## Version 1.12.4+156 (2026-02-27)\n\n### Features\n- Integrated search functionality into the Release Notes and Open Source Licenses screens\n- Created a custom searchable Open Source Licenses screen replacing the default system page\n\n### Improvements\n- Enhanced flavor profile visualization by forcing the radar chart in detail screens\n- Added integration tests to verify search functionality in info screens\n## Version 1.12.3+155 (2026-02-27)\n\n### Improvements\n- Maintenance and feature synchronization\n- Refined About screen and branding consistency\n- Synchronized assets for Android and iOS\n## Version 1.12.2+154 (2026-02-27)\n\n### Improvements\n- Upgraded splash screen to sharp high-quality image\n- Updated app launcher icons to a premium design (adaptive for Android)\n- Refreshed branding in About screen for a more polished aesthetic\n\n## Version 1.12.1+153 (2026-02-27)\n\n### Improvements\n- Implemented a dedicated About screen with Design Philosophy and Resources & Legal sections.\n- Added a Release Notes viewer with Markdown support.\n- Integrated flutter_markdown dependency and bundled RELEASE_NOTES.md as an asset.\n- Updated settings navigation to include the new About page.\n\n## Version 1.12.0+152 (2026-02-27)\n\n### New Features\n- **Material 3 \"About\" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.\n- **Integrated Release Notes**: Browse the full history of Pipe Cellar Master updates directly within the app, ensuring you're always up to speed with new features.\n- **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 \"Lounge\" design tokens across the settings experience.\n\n## Version 1.11.0+151 (2026-02-27)\n\n### Improvements\n- **Finalized Google Play Bundle**: This version prepares the app for its official storefront debut.\n- **Improved Performance**: Internal build refinements for a smoother scanning and inventory management experience.\n\n## Version 1.10.0+150 (2026-02-27)\n\n### Improvements\n- **Finalized Stable Release**: This version marks a stable production milestone, consolidating recent major features including the Google Drive cloud backup system and a polished AI scanning experience.\n- **Improved Settings**: Standardized the Cloud Backup and Restore interfaces into `ListTile` entries for better discoverability and consistency.\n- **Technical Refinements**: Implemented `rootNavigator` for all modal progress dialogs to prevent UI deadlocks during complex data operations.\n- **Maintenance**: General performance optimizations and build refinements for Google Play Console deployment.\n\n## Version 1.9.0+148 (2026-02-26)\n\n### Technical\n- **App Bundle**: Created a production-ready app bundle for Google Play Console.\n- **Versioning**: Incremented version to 1.9.0 (build 148).\n\n## Version 1.8.0+147 (2026-02-26)\n\n### Improvements\n- **Unified Backup Experience**: Aligned the Cloud Backup and Restore interfaces with the local Data Management (Export/Import) features to ensure a consistent look and feel across the app.\n- **ListTile Integration**: Transformed cloud backup actions into standard `ListTile` elements within Settings, making them more discoverable and consistent with other settings categories.\n- **Visual Progress Tracking**: Implemented a unified progress overlay for all data-heavy operations.\n- **Typography Standardization**: Refined the visual weight of secondary information across the entire Settings screen using standard `bodySmall` typography.\n\n### Technical\n- **Enhanced Modal Safety**: Refactored progress dialogs to use the `rootNavigator`, ensuring they correctly overlay all UI elements.\n- **Improved Layout Resilience**: Integrated `useSafeArea` into key import and restore screens to ensure content is perfectly positioned.\n\n## Version 1.7.0+146 (2026-02-26)\n\n### New Features\n- **Google Drive Cloud Backup**: Securely back up your entire pipe tobacco collection to your personal Google Drive.\n- **Automated Sync**: Choose between Daily or Weekly automatic background backups on app startup.\n- **Cloud Restore Wizard**: A new in-app file browser that lets you easily select from your previous cloud backups.\n- **Backup History**: Track the status of every manual and automated backup attempt directly in Settings.\n\n### Improvements\n- **Refined Scanner Overlay**: Fixed the \"white box\" visual glitch in the scanning screen with 80% opacity dark overlay.\n- **Enhanced Scanning Visuals**: Improved the scanning line with a stronger glow and refined the pulsing icon and progress bar.\n- **Robust Clipping**: Added anti-alias clipping to the scanner container to ensure all overlay elements respect the rounded corner design.\n- **Data Fidelity**: 100% field parity for JSON imports/exports, ensuring your reviews, flavor wheels, and notes are perfectly preserved.\n\n### Technical\n- **Database Schema v14**: Incremented database version to support local backup logs and persistent sync status.\n- **OAuth 2.0 Resilience**: Centralized authenticated HTTP client to ensure reliable token injection for AI and Drive services.\n\n## Version 1.2.1+138 (2026-02-25)\n\n### Bug Fixes\n- **AgeCountingMode Serialization**: Fixed a critical crash that occurred when importing collections.\n- **Data Recovery**: Automatically repairs corrupted records from previous failed imports using a new database migration (v12).\n\n## Version 1.1.0+136 (2026-02-25)\n\n### New Features\n- **Enhanced Data Import Validation**: A major update to the import system that provides deep visibility into data validation.\n- **Detailed Error Reporting**: Identifies exactly which fields failed, why they failed, and what value was encountered.\n- **Contextual Format Hints**: Helps you fix your CSV/JSON files by showing expected formats for complex metadata.\n- **Validation Inspection Screen**: A new dedicated view to safely review all warnings and errors before executing an import.\n\n### Technical\n- **Defensive JSON Extraction**: Hardened CSV parser to handle malformed or hand-edited JSON strings.\n- **Robust State Management**: Updated `ImportController` with improved navigation state tracking.\n\n## Version 1.0.0+135 (2026-02-25)\n\n### New Features\n- **Official Release**: This marks the first official stable release of Pipe Cellar Master.\n\n### Bug Fixes\n- **Wishlist Stability**: Resolved a bug where updating wishlist items could cause them to disappear or throw errors.\n\n### Technical\n- **Improved Data Integrity**: Enhanced `TinRepository` to ensure all items maintain consistent IDs.\n\n## Version 0.9.2+133 (2026-02-25)\n\n### Improvements\n- **Modernized AI Auth**: Updated the authentication layer to support Gemini 2.5 Flash security requirements.\n- **Optimized Performance**: Significant speed improvements when loading large collections.\n- **Proactive AI Readiness**: Session refresh before starting deep AI analysis.\n\n### Bug Fixes\n- **Deadlock Fix**: Resolved a critical issue where the app could hang when adding tins.\n\n## Version 0.9.1+132 (2026-02-25)\n\n### New Features\n- **Expanded CSV Support**: Added support for importing quantity fields via CSV.\n\n### Improvements\n- **Smart CSV Type Coercion**: Improved parsing that intelligently handles user-edited spreadsheets.\n- **Robust Error Reporting**: Enhanced Import Wizard with detailed validation summaries.\n\n### Technical\n- **Defensive Validation Engine**: A robust new pre-ingestion validation layer.\n- **JSON Format Hardening**: Improved handling of malformed fields within CSV files.\n\n## Version 0.9.0+131 (2026-02-25)\n\n### New Features\n- **High-Performance Data Import**: Migrate collections from other apps using JSON or CSV.\n- **Guided Import Wizard**: A polished 5-stage experience with real-time feedback.\n- **Smart Conflict Resolution**: Automatic detection of existing tins with Skip/Overwrite/Keep options.\n- **OS-Level Backup Support**: Configured Android Backup and Data Extraction rules.\n\n### Technical\n- **Data Retention Hardening**: Multi-layered survival strategy for inventory and images.\n- **Robust Migration Testing**: Suite of tests simulating real-world app upgrades.\n- **Transactional Safety**: Atomic inventory operations to prevent data corruption.\n- **Background Isolate Parsing**: Heavy file processing performed off-thread for UI fluidity.\n\n## Version 0.8.1+130 (2026-02-24)\n\n### Improvements\n- **Smart Category Matching**: Updated filters to use \"contains\" matching for multi-type blends.\n- **Accurate Filter Counts**: Chips now reflect the total number of tins in each category.\n- **Improved Search Stability**: Enhanced search field targeting in automated tests.\n\n## Version 0.8.0+126 (2026-02-24)\n\n### New Features\n- **Instant Feedback**: Preview tobacco flavor wheels immediately during the scanning process.\n\n### Improvements\n- **Wishlist Flavor Parity**: Tobacco added from AI search now includes full flavor profile data.\n- **Enhanced Navigation**: Improved tab behavior when viewing wishlist details.\n- **Polished Search Experience**: New Analysis Indicator with pulsing icons and status labels.\n- **Smart Detection**: Recognizes when flavor profiles have been modified for unsaved changes warnings.\n\n### Bug Fixes\n- **Flavor Reliability**: Fixed an issue where flavor profile data could be lost during state transitions.\n\n### Technical\n- **Nested Routing**: Improved bottom navigation bar focus for wishlist details.\n- **State Synchronization**: Robust sync between AI extraction and local persistence.\n\n## Version 0.5.5+120 (2026-02-24)\n\n### New Features\n- **Advanced Diagnostics**: Added \"Enable Debug Logging\" toggle in Settings.\n- **Smart Resource Management**: Debug logging automatically disables after sharing logs.\n\n### Improvements\n- **Dynamic Logging**: Switch between standard and verbose modes without restart.\n\n## Version 0.5.2+117 (2026-02-23)\n\n### Improvements\n- **Enhanced UX**: Automatic analysis state synchronization when returning to the app.\n- **Convenient Sign-In**: Remembered Google account selection with auto-sign-in.\n- **Improved Flow**: Sign-out clears stored credentials only on explicit user action.\n\n### Bug Fixes\n- **Fixed Background Analysis**: Resolved hanging issues in background tin analysis.\n- **Connectivity**: Improved error handling for AI service connectivity.\n\n### Technical\n- **Enhanced Logging**: Better debugging for authentication and analysis.\n- **Timeouts**: Improved timeout handling for network operations.\n\n## Version 0.5.1+116 (2026-02-23)\n\n### Improvements\n- **State Sync**: Automatic analysis state synchronization.\n- **Stability**: Added timeouts and enhanced logging for background AI tasks.\n\n### Bug Fixes\n- **Background Analysis**: Fixed hanging issues during tin analysis.\n\n## Version 0.5.0+115 (2026-02-23)\n\n### New Features\n- **Unsaved Changes Warning**: Implemented across all edit screens (Tin, Item, Group).\n\n### Improvements\n- **3-button Dialog**: Consistent Save/Discard/Cancel editing experience.\n- **Navigation Safety**: Enhanced PopScope interception for async navigation.\n\n## Version 0.3.1+112 (2026-02-23)\n\n### New Features\n- **Streamlined Scanner**: Automatic image analysis when selecting a photo.\n- **Smart Date Memory**: Remembers last used cellar and manufacture dates.\n- **Filter Counts**: Shows tin counts on filter buttons.\n- **Wishlist Search**: Added search and type filters to the wishlist screen.\n- **UI Update**: Changed add tin FAB icon from camera to plus icon.\n\n## Version 0.3.0+110 (2026-02-23)\n\n### New Features\n- **Tin Groups**: Automatic grouping of multiple tins of the same blend.\n- **Flexible Quantity Tracking**: Track as individual tins or batch with counts.\n- **Date-based Grouping**: Separate tracking for different cellar/manufacture dates.\n\n### Technical\n- **Data Migration**: Existing data automatically migrated with duplicates merged.\n\n## Version 0.2.4+105 (2026-02-23)\n\n### New Features\n- **Official Descriptions**: Fetches official G.L. Pease descriptions from manufacturer.\n- **Age Counting Mode**: Choose between Cellar Date or Manufactured Date for age calculation.\n\n### Technical\n- **Code Quality**: Fixed deprecated APIs and removed unused imports.\n\n## Version 0.2.3+104 (2026-02-23)\n\n### Bug Fixes\n- **Diagnostic Logs**: Fixed log truncation issues with proper file sharing.\n\n## Version 0.2.2+102 (2026-02-23)\n\n### Improvements\n- **Persistent Auth**: Fixed Google Sign-In sessions and API key persistence.\n- **Robust Startup**: Enhanced initialization timeout for Google services.\n- **Improved UX**: Background token refreshing without visual flashes.\n\n## Version 0.2.1+101 (2026-02-23)\n\n### New Features\n- **Manufacture Tracking**: Added \"Sealed/Manufactured Date\" tracking.\n\n### Improvements\n- **Error Feedback**: Improved error message dismissibility.\n\n## Version 0.2.0+100 (2026-02-23)\n\n### New Features\n- **Wishlist Integration**: Added persistence and cellar integration.\n- **Notification UI**: Manage aging milestones and history.\n- **Enhanced Scanning**: Improved AI data extraction for tobacco tins.\n\n## Version 0.1.2+95 (2026-02-23)\n\n### Bug Fixes\n- **Maintenance**: Minor bug fixes and UI refinements.\n\n## Version 0.1.0+90 (2026-02-23)\n\n### New Features\n- **Initial Release**: Project setup with core inventory management capabilities.\n- **Documentation**: Initial Design and Implementation guides.\n
+- AI Search Enrichment: Mandatory web verification for identified tobacco blends to eliminate hallucinations.
+- AI Search Analysis: Search-enabled flavor analysis for more accurate intensity profiles.
+- Data Integrity: Automatic cleanup of orphaned tin groups during import/restore.
+- Authentication: Improved user preference handling for automatic Google Sign-In prompts.
+- Testing: Updated comprehensive integration tests and mocks for AI services.
+
+
+## Version 1.13.5+163 (2026-02-28)
+
+
+### AI & Scanner
+- Added Google Search fallback to Gemini scanner for improved blend identification.
+- Prioritized authoritative data sources (TobaccoReviews, SmokingPipes) for AI extraction.
+
+### Cloud & Backup
+- Robust cloud backup listing with name-based sorting and localized times.
+- Fixed restoration hang using SQLite Batch API for large collections.
+
+### Performance & Integrity
+- Database migrated to v17 with orphaned group cleanup and case-insensitive indexing.
+- Offloaded diagnostic log generation to background isolates to ensure UI responsiveness.
+
+### UI & UX
+- Added Safe Area support for backup selection sheets.
+- Enhanced import summary with detailed cellar vs wishlist counts.
+## Version 1.13.4+162 (2026-02-28)
+
+### Bug Fixes
+- Fixed robust cloud backup listing with name-based sorting and localized display times.
+- Improved backup entry display with localized time formats for better readability.
+## Version 1.13.3+161 (2026-02-28)
+
+### Improvements
+- Fix Cloud Restore issue: Ensure newly created backups appear correctly by using modifiedTime for deterministic folder and file selection in Google Drive. Verified with comprehensive integration tests.
+## Version 1.13.2+160 (2026-02-28)
+
+### Performance & Integrity
+- Fixed 'Processing database updates...' hang during restore using the SQLite Batch API.
+- Optimized import performance for large collections via a new group-lookup cache.
+- Parallelized physical image restoration for significantly faster recovery.
+- Updated database to v16 with case-insensitive indexing for faster searches.
+
+### Bug Fixes
+- Fixed a critical issue where tin quantities were reset to 1 during restoration.
+
+### Quality & Testing
+- Implemented comprehensive E2E integration tests for the full backup/restore lifecycle (local and cloud).
+## Version 1.13.1+159 (2026-02-27)
+
+### Improvements
+- Allow partial imports on validation errors and improve total count accuracy.
+## Version 1.13.0+158 (2026-02-27)
+
+### New Features
+- **📊 Cellar Analytics Dashboard**: Get visual insights into your collection with pie charts for blend types, bar charts for top brands, and key metrics like total value and weight.
+- **💰 Price Tracking**: Record the purchase price of your tins to track collection value over time.
+
+### Refactors & Upgrades
+- Upgraded project dependencies to latest compatible major versions (Riverpod 3.x, fl_chart 1.x, googleapis 16.x)
+- Refactored core application controllers (Settings, Import, Notifications) to comply with Riverpod 3.x Notifier patterns
+- Replaced the discontinued `flutter_markdown` package with `flutter_markdown_plus` for better stability and performance
+- Updated the entire test suite (132 tests) to accommodate `Ref` class sealing and new `Notifier` override APIs
+- Verified system stability with 100% test pass rate post-refactor
+
+## Version 1.12.5+157 (2026-02-27)
+
+### Improvements
+- Integrated search functionality for app information and refined flavor profile visualizations
+## Version 1.12.4+156 (2026-02-27)
+
+### Features
+- Integrated search functionality into the Release Notes and Open Source Licenses screens
+- Created a custom searchable Open Source Licenses screen replacing the default system page
+
+### Improvements
+- Enhanced flavor profile visualization by forcing the radar chart in detail screens
+- Added integration tests to verify search functionality in info screens
+## Version 1.12.3+155 (2026-02-27)
+
+### Improvements
+- Maintenance and feature synchronization
+- Refined About screen and branding consistency
+- Synchronized assets for Android and iOS
+## Version 1.12.2+154 (2026-02-27)
+
+### Improvements
+- Upgraded splash screen to sharp high-quality image
+- Updated app launcher icons to a premium design (adaptive for Android)
+- Refreshed branding in About screen for a more polished aesthetic
+
+## Version 1.12.1+153 (2026-02-27)
+
+### Improvements
+- Implemented a dedicated About screen with Design Philosophy and Resources & Legal sections.
+- Added a Release Notes viewer with Markdown support.
+- Integrated flutter_markdown dependency and bundled RELEASE_NOTES.md as an asset.
+- Updated settings navigation to include the new About page.
+
+## Version 1.12.0+152 (2026-02-27)
+
+### New Features
+- **Material 3 "About" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
+- **Integrated Release Notes**: Browse the full history of Pipe Cellar Master updates directly within the app, ensuring you're always up to speed with new features.
+- **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 "Lounge" design tokens across the settings experience.
+
+## Version 1.11.0+151 (2026-02-27)
+
+### Improvements
+- **Finalized Google Play Bundle**: This version prepares the app for its official storefront debut.
+- **Improved Performance**: Internal build refinements for a smoother scanning and inventory management experience.
+
+## Version 1.10.0+150 (2026-02-27)
+
+### Improvements
+- **Finalized Stable Release**: This version marks a stable production milestone, consolidating recent major features including the Google Drive cloud backup system and a polished AI scanning experience.
+- **Improved Settings**: Standardized the Cloud Backup and Restore interfaces into `ListTile` entries for better discoverability and consistency.
+- **Technical Refinements**: Implemented `rootNavigator` for all modal progress dialogs to prevent UI deadlocks during complex data operations.
+- **Maintenance**: General performance optimizations and build refinements for Google Play Console deployment.
+
+## Version 1.9.0+148 (2026-02-26)
+
+### Technical
+- **App Bundle**: Created a production-ready app bundle for Google Play Console.
+- **Versioning**: Incremented version to 1.9.0 (build 148).
+
+## Version 1.8.0+147 (2026-02-26)
+
+### Improvements
+- **Unified Backup Experience**: Aligned the Cloud Backup and Restore interfaces with the local Data Management (Export/Import) features to ensure a consistent look and feel across the app.
+- **ListTile Integration**: Transformed cloud backup actions into standard `ListTile` elements within Settings, making them more discoverable and consistent with other settings categories.
+- **Visual Progress Tracking**: Implemented a unified progress overlay for all data-heavy operations.
+- **Typography Standardization**: Refined the visual weight of secondary information across the entire Settings screen using standard `bodySmall` typography.
+
+### Technical
+- **Enhanced Modal Safety**: Refactored progress dialogs to use the `rootNavigator`, ensuring they correctly overlay all UI elements.
+- **Improved Layout Resilience**: Integrated `useSafeArea` into key import and restore screens to ensure content is perfectly positioned.
+
+## Version 1.7.0+146 (2026-02-26)
+
+### New Features
+- **Google Drive Cloud Backup**: Securely back up your entire pipe tobacco collection to your personal Google Drive.
+- **Automated Sync**: Choose between Daily or Weekly automatic background backups on app startup.
+- **Cloud Restore Wizard**: A new in-app file browser that lets you easily select from your previous cloud backups.
+- **Backup History**: Track the status of every manual and automated backup attempt directly in Settings.
+
+### Improvements
+- **Refined Scanner Overlay**: Fixed the "white box" visual glitch in the scanning screen with 80% opacity dark overlay.
+- **Enhanced Scanning Visuals**: Improved the scanning line with a stronger glow and refined the pulsing icon and progress bar.
+- **Robust Clipping**: Added anti-alias clipping to the scanner container to ensure all overlay elements respect the rounded corner design.
+- **Data Fidelity**: 100% field parity for JSON imports/exports, ensuring your reviews, flavor wheels, and notes are perfectly preserved.
+
+### Technical
+- **Database Schema v14**: Incremented database version to support local backup logs and persistent sync status.
+- **OAuth 2.0 Resilience**: Centralized authenticated HTTP client to ensure reliable token injection for AI and Drive services.
+
+## Version 1.2.1+138 (2026-02-25)
+
+### Bug Fixes
+- **AgeCountingMode Serialization**: Fixed a critical crash that occurred when importing collections.
+- **Data Recovery**: Automatically repairs corrupted records from previous failed imports using a new database migration (v12).
+
+## Version 1.1.0+136 (2026-02-25)
+
+### New Features
+- **Enhanced Data Import Validation**: A major update to the import system that provides deep visibility into data validation.
+- **Detailed Error Reporting**: Identifies exactly which fields failed, why they failed, and what value was encountered.
+- **Contextual Format Hints**: Helps you fix your CSV/JSON files by showing expected formats for complex metadata.
+- **Validation Inspection Screen**: A new dedicated view to safely review all warnings and errors before executing an import.
+
+### Technical
+- **Defensive JSON Extraction**: Hardened CSV parser to handle malformed or hand-edited JSON strings.
+- **Robust State Management**: Updated `ImportController` with improved navigation state tracking.
+
+## Version 1.0.0+135 (2026-02-25)
+
+### New Features
+- **Official Release**: This marks the first official stable release of Pipe Cellar Master.
+
+### Bug Fixes
+- **Wishlist Stability**: Resolved a bug where updating wishlist items could cause them to disappear or throw errors.
+
+### Technical
+- **Improved Data Integrity**: Enhanced `TinRepository` to ensure all items maintain consistent IDs.
+
+## Version 0.9.2+133 (2026-02-25)
+
+### Improvements
+- **Modernized AI Auth**: Updated the authentication layer to support Gemini 2.5 Flash security requirements.
+- **Optimized Performance**: Significant speed improvements when loading large collections.
+- **Proactive AI Readiness**: Session refresh before starting deep AI analysis.
+
+### Bug Fixes
+- **Deadlock Fix**: Resolved a critical issue where the app could hang when adding tins.
+
+## Version 0.9.1+132 (2026-02-25)
+
+### New Features
+- **Expanded CSV Support**: Added support for importing quantity fields via CSV.
+
+### Improvements
+- **Smart CSV Type Coercion**: Improved parsing that intelligently handles user-edited spreadsheets.
+- **Robust Error Reporting**: Enhanced Import Wizard with detailed validation summaries.
+
+### Technical
+- **Defensive Validation Engine**: A robust new pre-ingestion validation layer.
+- **JSON Format Hardening**: Improved handling of malformed fields within CSV files.
+
+## Version 0.9.0+131 (2026-02-25)
+
+### New Features
+- **High-Performance Data Import**: Migrate collections from other apps using JSON or CSV.
+- **Guided Import Wizard**: A polished 5-stage experience with real-time feedback.
+- **Smart Conflict Resolution**: Automatic detection of existing tins with Skip/Overwrite/Keep options.
+- **OS-Level Backup Support**: Configured Android Backup and Data Extraction rules.
+
+### Technical
+- **Data Retention Hardening**: Multi-layered survival strategy for inventory and images.
+- **Robust Migration Testing**: Suite of tests simulating real-world app upgrades.
+- **Transactional Safety**: Atomic inventory operations to prevent data corruption.
+- **Background Isolate Parsing**: Heavy file processing performed off-thread for UI fluidity.
+
+## Version 0.8.1+130 (2026-02-24)
+
+### Improvements
+- **Smart Category Matching**: Updated filters to use "contains" matching for multi-type blends.
+- **Accurate Filter Counts**: Chips now reflect the total number of tins in each category.
+- **Improved Search Stability**: Enhanced search field targeting in automated tests.
+
+## Version 0.8.0+126 (2026-02-24)
+
+### New Features
+- **Instant Feedback**: Preview tobacco flavor wheels immediately during the scanning process.
+
+### Improvements
+- **Wishlist Flavor Parity**: Tobacco added from AI search now includes full flavor profile data.
+- **Enhanced Navigation**: Improved tab behavior when viewing wishlist details.
+- **Polished Search Experience**: New Analysis Indicator with pulsing icons and status labels.
+- **Smart Detection**: Recognizes when flavor profiles have been modified for unsaved changes warnings.
+
+### Bug Fixes
+- **Flavor Reliability**: Fixed an issue where flavor profile data could be lost during state transitions.
+
+### Technical
+- **Nested Routing**: Improved bottom navigation bar focus for wishlist details.
+- **State Synchronization**: Robust sync between AI extraction and local persistence.
+
+## Version 0.5.5+120 (2026-02-24)
+
+### New Features
+- **Advanced Diagnostics**: Added "Enable Debug Logging" toggle in Settings.
+- **Smart Resource Management**: Debug logging automatically disables after sharing logs.
+
+### Improvements
+- **Dynamic Logging**: Switch between standard and verbose modes without restart.
+
+## Version 0.5.2+117 (2026-02-23)
+
+### Improvements
+- **Enhanced UX**: Automatic analysis state synchronization when returning to the app.
+- **Convenient Sign-In**: Remembered Google account selection with auto-sign-in.
+- **Improved Flow**: Sign-out clears stored credentials only on explicit user action.
+
+### Bug Fixes
+- **Fixed Background Analysis**: Resolved hanging issues in background tin analysis.
+- **Connectivity**: Improved error handling for AI service connectivity.
+
+### Technical
+- **Enhanced Logging**: Better debugging for authentication and analysis.
+- **Timeouts**: Improved timeout handling for network operations.
+
+## Version 0.5.1+116 (2026-02-23)
+
+### Improvements
+- **State Sync**: Automatic analysis state synchronization.
+- **Stability**: Added timeouts and enhanced logging for background AI tasks.
+
+### Bug Fixes
+- **Background Analysis**: Fixed hanging issues during tin analysis.
+
+## Version 0.5.0+115 (2026-02-23)
+
+### New Features
+- **Unsaved Changes Warning**: Implemented across all edit screens (Tin, Item, Group).
+
+### Improvements
+- **3-button Dialog**: Consistent Save/Discard/Cancel editing experience.
+- **Navigation Safety**: Enhanced PopScope interception for async navigation.
+
+## Version 0.3.1+112 (2026-02-23)
+
+### New Features
+- **Streamlined Scanner**: Automatic image analysis when selecting a photo.
+- **Smart Date Memory**: Remembers last used cellar and manufacture dates.
+- **Filter Counts**: Shows tin counts on filter buttons.
+- **Wishlist Search**: Added search and type filters to the wishlist screen.
+- **UI Update**: Changed add tin FAB icon from camera to plus icon.
+
+## Version 0.3.0+110 (2026-02-23)
+
+### New Features
+- **Tin Groups**: Automatic grouping of multiple tins of the same blend.
+- **Flexible Quantity Tracking**: Track as individual tins or batch with counts.
+- **Date-based Grouping**: Separate tracking for different cellar/manufacture dates.
+
+### Technical
+- **Data Migration**: Existing data automatically migrated with duplicates merged.
+
+## Version 0.2.4+105 (2026-02-23)
+
+### New Features
+- **Official Descriptions**: Fetches official G.L. Pease descriptions from manufacturer.
+- **Age Counting Mode**: Choose between Cellar Date or Manufactured Date for age calculation.
+
+### Technical
+- **Code Quality**: Fixed deprecated APIs and removed unused imports.
+
+## Version 0.2.3+104 (2026-02-23)
+
+### Bug Fixes
+- **Diagnostic Logs**: Fixed log truncation issues with proper file sharing.
+
+## Version 0.2.2+102 (2026-02-23)
+
+### Improvements
+- **Persistent Auth**: Fixed Google Sign-In sessions and API key persistence.
+- **Robust Startup**: Enhanced initialization timeout for Google services.
+- **Improved UX**: Background token refreshing without visual flashes.
+
+## Version 0.2.1+101 (2026-02-23)
+
+### New Features
+- **Manufacture Tracking**: Added "Sealed/Manufactured Date" tracking.
+
+### Improvements
+- **Error Feedback**: Improved error message dismissibility.
+
+## Version 0.2.0+100 (2026-02-23)
+
+### New Features
+- **Wishlist Integration**: Added persistence and cellar integration.
+- **Notification UI**: Manage aging milestones and history.
+- **Enhanced Scanning**: Improved AI data extraction for tobacco tins.
+
+## Version 0.1.2+95 (2026-02-23)
+
+### Bug Fixes
+- **Maintenance**: Minor bug fixes and UI refinements.
+
+## Version 0.1.0+90 (2026-02-23)
+
+### New Features
+- **Initial Release**: Project setup with core inventory management capabilities.
+- **Documentation**: Initial Design and Implementation guides.
