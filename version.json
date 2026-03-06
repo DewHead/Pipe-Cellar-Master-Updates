@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.64+242",
+  "latest_version": "1.18.65+243",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.65+243",
+      "notes": "Refined Bulk Analysis persistence and added AI Preview screen."
+    },
     {
       "version": "1.18.64+242",
       "notes": "### New Features\n- **📦 Incremental Bulk Analysis**: AI analysis of your collection is now more responsive, providing real-time UI updates as each group is processed.\n- **🔄 Automatic Data Sync**: Adding a tin with AI-scanned characteristics now automatically updates the associated brand/blend group for a more unified view.\n### Improvements\n- **⚙️ State Management**: Refined the inventory state logic to ensure the UI remains snappy during long-running bulk operations."
@@ -9,26 +13,6 @@
     {
       "version": "1.18.63+241",
       "notes": "### Improvements\n- **⚙️ AI Data Sanitization**: Added robustness to Gemini service for parsing tobacco characteristics from AI output.\n- **🎨 UI Polish**: Improved stability in the Edit Tin screen with safer integer handling."
-    },
-    {
-      "version": "1.18.62+240",
-      "notes": "### New Features\n- **📦 Tobacco Characteristics in Tin Groups**: Added Strength, Flavoring, Room Note and Taste visualization to the Tin Group screen.\n### Improvements\n- **⚙️ AI Analysis UI**: Refined Settings screen for clearer bulk analysis progress.\n- **🔄 Data Import**: Enhanced validation and handling of tobacco characteristics during JSON imports."
-    },
-    {
-      "version": "1.18.61+239",
-      "notes": "### Fixes\n- UI: Improved readability of flavor chips when in non-interactive mode."
-    },
-    {
-      "version": "1.18.60+238",
-      "notes": "UI: Refined the Blend Details view in the Tin Group screen to be always visible and better organized."
-    },
-    {
-      "version": "1.18.59+237",
-      "notes": "### New Features\n- **📊 Tobacco Characteristics**: Added a new visualization for tobacco strength, flavor intensity, and room note, giving you deeper insights into your collection.\n- **🔄 Dynamic Filter Bar**: Introduced a more intuitive filter chip system for the inventory screens.\n- **📦 Improved Tin Grouping**: Added collapsible sections for tin groups and a refined group detail view for better organization.\n### Improvements\n- **⚖️ Weight Display**: Cleaned up the weight display by removing redundant parentheses.\n- **⚙️ Settings Refinement**: Simplified preference settings by removing redundant sorting options.\n- **🚀 System Reliability**: Improved the robustness of data import and restoration workflows."
-    },
-    {
-      "version": "1.18.58+236",
-      "notes": "### Improvements\n- AI: Upgraded scanner models to Gemini 3.1 Standard for improved accuracy.\n- Timeline: Redesigned aging progression for a more intuitive view of your collection.\n- Inventory: Comprehensive filtering and sorting options for both Cellar and Wishlist.\n- Scanner: Added photo saving and manual model selection overrides for advanced users.\n- System: Enhanced reliability for backup, restore, and import workflows with core performance updates."
     }
   ]
 }

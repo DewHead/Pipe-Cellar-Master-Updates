@@ -20,6 +20,11 @@
 
 
 
+
+## Version 1.18.65+243 (2026-03-06)
+
+### Improvements
+- Refined Bulk Analysis persistence and added AI Preview screen.
 ## Version 1.18.64+242 (2026-03-06)
 
 ### New Features
@@ -158,20 +163,7 @@
 ## Version 1.18.41+219 (2026-03-03)
 
 ### Improvements
-- New Features:
-- Local Backup/Restore: Create ZIP backups with data + images, restore from device
-- AI Model Update: Standardized on gemini-3.1-flash-lite-preview for all operations; Virtual Blending now honestly reports when cellar lacks suitable tobaccos
-- UI Enhancements: Recommendation reasons display on separate lines; "Tin added to cellar" snackbar when moving from wishlist; Scanner search refactored to fix crashes
-- Pipe Model Field: Added optional "Model" field to pipes with full CRUD support and search integration
-Bug Fixes:
-- Timeline navigation: Fixed blank screen crash for ungrouped tins; now routes correctly to individual or group detail screens
-- TinGroupDetailScreen: Graceful error handling for missing groups
-- Scanner manual search: Fixed Exception: No parts in search response content crash
-Technical:
-- Database migration v21 (adds pipes.model column)
-- Refactored WishlistSearchBottomSheet → reusable TobaccoSearchBottomSheet
-- Centralized AI model constant in ApiConfig
-- Export format enum updated: JSON → ZIP
+- New Features:\n- Local Backup/Restore: Create ZIP backups with data + images, restore from device\n- AI Model Update: Standardized on gemini-3.1-flash-lite-preview for all operations; Virtual Blending now honestly reports when cellar lacks suitable tobaccos\n- UI Enhancements: Recommendation reasons display on separate lines; \"Tin added to cellar\" snackbar when moving from wishlist; Scanner search refactored to fix crashes\n- Pipe Model Field: Added optional \"Model\" field to pipes with full CRUD support and search integration\nBug Fixes:\n- Timeline navigation: Fixed blank screen crash for ungrouped tins; now routes correctly to individual or group detail screens\n- TinGroupDetailScreen: Graceful error handling for missing groups\n- Scanner manual search: Fixed Exception: No parts in search response content crash\nTechnical:\n- Database migration v21 (adds pipes.model column)\n- Refactored WishlistSearchBottomSheet → reusable TobaccoSearchBottomSheet\n- Centralized AI model constant in ApiConfig\n- Export format enum updated: JSON → ZIP
 ## Version 1.18.40+218 (2026-03-02)
 
 ### Improvements
@@ -425,7 +417,7 @@ Technical:
 ### Improvements
 - Fixed missing flavor wheel (radar chart) for new tins.
 - Enhanced Gemini AI prompts for more consistent flavor data.
-- Added "Fetch AI Flavor Profile" button as a fallback.
+- Added \"Fetch AI Flavor Profile\" button as a fallback.
 - Improved flavor data parsing and normalization.
 ## Version 1.15.3+169 (2026-02-28)
 
@@ -564,9 +556,9 @@ Technical:
 ## Version 1.12.0+152 (2026-02-27)
 
 ### New Features
-- **Material 3 "About" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
+- **Material 3 \"About\" Screen**: A beautiful new information hub with mission statements, AI capabilities, and privacy transparency.
 - **Integrated Release Notes**: Browse the full history of Pipe Cellar Master updates directly within the app, ensuring you're always up to speed with new features.
-- **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 "Lounge" design tokens across the settings experience.
+- **UI Polish**: Added high-fidelity Hero animations and standardized Material 3 \"Lounge\" design tokens across the settings experience.
 
 ## Version 1.11.0+151 (2026-02-27)
 
@@ -609,7 +601,7 @@ Technical:
 - **Backup History**: Track the status of every manual and automated backup attempt directly in Settings.
 
 ### Improvements
-- **Refined Scanner Overlay**: Fixed the "white box" visual glitch in the scanning screen with 80% opacity dark overlay.
+- **Refined Scanner Overlay**: Fixed the \"white box\" visual glitch in the scanning screen with 80% opacity dark overlay.
 - **Enhanced Scanning Visuals**: Improved the scanning line with a stronger glow and refined the pulsing icon and progress bar.
 - **Robust Clipping**: Added anti-alias clipping to the scanner container to ensure all overlay elements respect the rounded corner design.
 - **Data Fidelity**: 100% field parity for JSON imports/exports, ensuring your reviews, flavor wheels, and notes are perfectly preserved.
@@ -687,7 +679,7 @@ Technical:
 ## Version 0.8.1+130 (2026-02-24)
 
 ### Improvements
-- **Smart Category Matching**: Updated filters to use "contains" matching for multi-type blends.
+- **Smart Category Matching**: Updated filters to use \"contains\" matching for multi-type blends.
 - **Accurate Filter Counts**: Chips now reflect the total number of tins in each category.
 - **Improved Search Stability**: Enhanced search field targeting in automated tests.
 
@@ -712,7 +704,7 @@ Technical:
 ## Version 0.5.5+120 (2026-02-24)
 
 ### New Features
-- **Advanced Diagnostics**: Added "Enable Debug Logging" toggle in Settings.
+- **Advanced Diagnostics**: Added \"Enable Debug Logging\" toggle in Settings.
 - **Smart Resource Management**: Debug logging automatically disables after sharing logs.
 
 ### Improvements
@@ -794,7 +786,7 @@ Technical:
 ## Version 0.2.1+101 (2026-02-23)
 
 ### New Features
-- **Manufacture Tracking**: Added "Sealed/Manufactured Date" tracking.
+- **Manufacture Tracking**: Added \"Sealed/Manufactured Date\" tracking.
 
 ### Improvements
 - **Error Feedback**: Improved error message dismissibility.
