@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.60+238",
+  "latest_version": "1.18.61+239",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.61+239",
+      "notes": "### Fixes\n- UI: Improved readability of flavor chips when in non-interactive mode."
+    },
     {
       "version": "1.18.60+238",
       "notes": "UI: Refined the Blend Details view in the Tin Group screen to be always visible and better organized."
