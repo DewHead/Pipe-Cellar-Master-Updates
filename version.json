@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.58+236",
+  "latest_version": "1.18.59+237",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.59+237",
+      "notes": "### New Features\n- **📊 Tobacco Characteristics**: Added a new visualization for tobacco strength, flavor intensity, and room note, giving you deeper insights into your collection.\n- **🔄 Dynamic Filter Bar**: Introduced a more intuitive filter chip system for the inventory screens.\n- **📦 Improved Tin Grouping**: Added collapsible sections for tin groups and a refined group detail view for better organization.\n### Improvements\n- **⚖️ Weight Display**: Cleaned up the weight display by removing redundant parentheses.\n- **⚙️ Settings Refinement**: Simplified preference settings by removing redundant sorting options.\n- **🚀 System Reliability**: Improved the robustness of data import and restoration workflows."
+    },
     {
       "version": "1.18.58+236",
       "notes": "### Improvements\n- AI: Upgraded scanner models to Gemini 3.1 Standard for improved accuracy.\n- Timeline: Redesigned aging progression for a more intuitive view of your collection.\n- Inventory: Comprehensive filtering and sorting options for both Cellar and Wishlist.\n- Scanner: Added photo saving and manual model selection overrides for advanced users.\n- System: Enhanced reliability for backup, restore, and import workflows with core performance updates."
