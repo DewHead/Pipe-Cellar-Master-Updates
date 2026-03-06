@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.61+239",
+  "latest_version": "1.18.62+240",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.62+240",
+      "notes": "### New Features\n- **📦 Tobacco Characteristics in Tin Groups**: Added Strength, Flavoring, Room Note and Taste visualization to the Tin Group screen.\n### Improvements\n- **⚙️ AI Analysis UI**: Refined Settings screen for clearer bulk analysis progress.\n- **🔄 Data Import**: Enhanced validation and handling of tobacco characteristics during JSON imports."
+    },
     {
       "version": "1.18.61+239",
       "notes": "### Fixes\n- UI: Improved readability of flavor chips when in non-interactive mode."
