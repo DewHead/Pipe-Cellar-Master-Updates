@@ -1,10 +1,46 @@
 {
-  "latest_version": "1.18.69+247",
+  "latest_version": "1.18.70+248",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
     {
+      "version": "1.18.70+248",
+      "notes": "AI Precision & Pipe Compatibility. Structured pipe recommendations (Type, Explanation, Examples). Room Note Scale Inversion (1=Pleasant, 10=Strong). Improved AI scanning precision and mandatory field population. Updated Export/Import & Backup systems for new data."
+    },
+    {
       "version": "1.18.69+247",
       "notes": "### New Features\n- **📊 Room Note Scale Inversion**: Room Note is now consistently represented on an intensity scale where 1 is Unnoticeable and 10 is Overwhelming.\n### Improvements\n- **🎨 UI Refinement**: Clarified Room Note intensity scale in tobacco characteristics view.\n- **🧠 AI Scanner Precision**: Enhanced Gemini prompts to better align with the 1-10 Room Note intensity scale.\n- **🔄 Database Migration**: Automatically inverted existing Room Note values to maintain consistency with the new intensity-based scale."
+    },
+    {
+      "version": "1.18.68+246",
+      "notes": "### New Features\n- **🧠 Intelligent Recommendation Engine**: Now considers tobacco strength and taste intensity, providing time-of-day appropriate suggestions (mild for morning, full for evening).\n- **🧪 Advanced Virtual Blending**: AI-powered blending recipes now leverage full tobacco characteristics (Strength, Flavoring, Room Note, Taste) for more accurate \"tribute\" blends.\n### Improvements\n- **☕ Enhanced AI Pairings**: Pairings now account for strength and flavoring intensity for better beverage and activity recommendations.\n- **🎨 UI Refinement**: Updated Wishlist and Tin Group views to better integrate tobacco characteristics."
+    },
+    {
+      "version": "1.18.67+245",
+      "notes": "- **⚙️ Diagnostic Logging**: Added information icon to 'Enable Debug Logging' to assist with issue reporting.\n- **🔄 Manual Update Check**: Added a 'Check for update' button in settings.\n- **📦 Data Export/Import**: Enhanced backup/restore with more fields (quantities, finished date, etc.) and better metadata handling.\n- **🧪 Testing**: Added comprehensive E2E tests for cloud backup and restore lifecycle."
+    },
+    {
+      "version": "1.18.66+244",
+      "notes": "### Improvements\n- **⚙️ Diagnostic Logging**: Added information icon to 'Enable Debug Logging' to assist with issue reporting.\n- **🔄 Manual Update Check**: Added a 'Check for update' button in settings for better control over update discovery."
+    },
+    {
+      "version": "1.18.65+243",
+      "notes": "Refined Bulk Analysis persistence and added AI Preview screen."
+    },
+    {
+      "version": "1.18.64+242",
+      "notes": "### New Features\n- **📦 Incremental Bulk Analysis**: AI analysis of your collection is now more responsive, providing real-time UI updates as each group is processed.\n- **🔄 Automatic Data Sync**: Adding a tin with AI-scanned characteristics now automatically updates the associated brand/blend group for a more unified view.\n### Improvements\n- **⚙️ State Management**: Refined the inventory state logic to ensure the UI remains snappy during long-running bulk operations."
+    },
+    {
+      "version": "1.18.63+241",
+      "notes": "### Improvements\n- **⚙️ AI Data Sanitization**: Added robustness to Gemini service for parsing tobacco characteristics from AI output.\n- **🎨 UI Polish**: Improved stability in the Edit Tin screen with safer integer handling."
+    },
+    {
+      "version": "1.18.62+240",
+      "notes": "### New Features\n- **📦 Tobacco Characteristics in Tin Groups**: Added Strength, Flavoring, Room Note and Taste visualization to the Tin Group screen.\n### Improvements\n- **⚙️ AI Analysis UI**: Refined Settings screen for clearer bulk analysis progress.\n- **🔄 Data Import**: Enhanced validation and handling of tobacco characteristics during JSON imports."
+    },
+    {
+      "version": "1.18.61+239",
+      "notes": "### Fixes\n- UI: Improved readability of flavor chips when in non-interactive mode."
     }
   ]
 }
