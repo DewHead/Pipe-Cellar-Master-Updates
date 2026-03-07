@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.72+250",
+  "latest_version": "1.18.73+251",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.73+251",
+      "notes": "**Export/Import Enhancements**: Added support for quantities, currency, and finished dates in CSV exports and imports. **Revamped PDF Reports**: Completely redesigned PDF export with summary statistics (Total Tins, Weight, Unique Blends), clearer table layouts, and formatted weights in both grams and ounces. **Release Notes UI**: Improved search and filtering performance in the release notes viewer for a smoother experience when browsing version history. **Improved Testing**: Added new test cases for the export and import systems to ensure data integrity."
+    },
     {
       "version": "1.18.72+250",
       "notes": "- **Analytics Dashboard Refinements**: Sorted and limited blend types to top 6 + 'Others' for better visualization. Improved brand prevalence bar chart with rotated labels and better fit.\n- **Support Screen UI Improvements**: Replaced the tooltip for debug logging with a clickable dialog for easier information discovery.\n- **Internal Maintenance**: Added unit tests for the support settings screen."
@@ -37,14 +41,6 @@
     {
       "version": "1.18.64+242",
       "notes": "### New Features\n- **📦 Incremental Bulk Analysis**: AI analysis of your collection is now more responsive, providing real-time UI updates as each group is processed.\n- **🔄 Automatic Data Sync**: Adding a tin with AI-scanned characteristics now automatically updates the associated brand/blend group for a more unified view.\n### Improvements\n- **⚙️ State Management**: Refined the inventory state logic to ensure the UI remains snappy during long-running bulk operations."
-    },
-    {
-      "version": "1.18.63+241",
-      "notes": "### Improvements\n- **⚙️ AI Data Sanitization**: Added robustness to Gemini service for parsing tobacco characteristics from AI output.\n- **🎨 UI Polish**: Improved stability in the Edit Tin screen with safer integer handling."
-    },
-    {
-      "version": "1.18.62+240",
-      "notes": "### New Features\n- **📦 Tobacco Characteristics in Tin Groups**: Added Strength, Flavoring, Room Note and Taste visualization to the Tin Group screen.\n### Improvements\n- **⚙️ AI Analysis UI**: Refined Settings screen for clearer bulk analysis progress.\n- **🔄 Data Import**: Enhanced validation and handling of tobacco characteristics during JSON imports."
     }
   ]
 }
