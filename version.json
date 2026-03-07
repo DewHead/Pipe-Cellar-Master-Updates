@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.71+249",
+  "latest_version": "1.18.72+250",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.72+250",
+      "notes": "- **Analytics Dashboard Refinements**: Sorted and limited blend types to top 6 + 'Others' for better visualization. Improved brand prevalence bar chart with rotated labels and better fit.\n- **Support Screen UI Improvements**: Replaced the tooltip for debug logging with a clickable dialog for easier information discovery.\n- **Internal Maintenance**: Added unit tests for the support settings screen."
+    },
     {
       "version": "1.18.71+249",
       "notes": "**Bulk Analysis Cancellation**: Stop long-running AI analysis tasks anytime.\n**Improved UX**: Confirmation dialog before starting bulk analysis and direct links to AI settings from incomplete tins.\n**Enhanced AI recommendations**: Structured pipe recommendations (Type, Explanation, Examples) are now part of the automated analysis.\n**Performance & Stability**: Fixed issues with non-interruptible background tasks and improved UI responsiveness."
