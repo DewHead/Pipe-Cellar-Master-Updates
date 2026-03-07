@@ -1,7 +1,11 @@
 {
-  "latest_version": "1.18.70+248",
+  "latest_version": "1.18.71+249",
   "update_url": "https://github.com/DewHead/Pipe-Cellar-Master/releases/latest",
   "changelog": [
+    {
+      "version": "1.18.71+249",
+      "notes": "**Bulk Analysis Cancellation**: Stop long-running AI analysis tasks anytime.\n**Improved UX**: Confirmation dialog before starting bulk analysis and direct links to AI settings from incomplete tins.\n**Enhanced AI recommendations**: Structured pipe recommendations (Type, Explanation, Examples) are now part of the automated analysis.\n**Performance & Stability**: Fixed issues with non-interruptible background tasks and improved UI responsiveness."
+    },
     {
       "version": "1.18.70+248",
       "notes": "AI Precision & Pipe Compatibility. Structured pipe recommendations (Type, Explanation, Examples). Room Note Scale Inversion (1=Pleasant, 10=Strong). Improved AI scanning precision and mandatory field population. Updated Export/Import & Backup systems for new data."
@@ -37,10 +41,6 @@
     {
       "version": "1.18.62+240",
       "notes": "### New Features\n- **📦 Tobacco Characteristics in Tin Groups**: Added Strength, Flavoring, Room Note and Taste visualization to the Tin Group screen.\n### Improvements\n- **⚙️ AI Analysis UI**: Refined Settings screen for clearer bulk analysis progress.\n- **🔄 Data Import**: Enhanced validation and handling of tobacco characteristics during JSON imports."
-    },
-    {
-      "version": "1.18.61+239",
-      "notes": "### Fixes\n- UI: Improved readability of flavor chips when in non-interactive mode."
     }
   ]
 }
